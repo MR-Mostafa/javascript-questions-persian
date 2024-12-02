@@ -65,10 +65,10 @@ function sayHi() {
 sayHi();
 ```
 
-- الف: `Lydia` and `undefined`
-- ب: `Lydia` and `ReferenceError`
-- ج: `ReferenceError` and `21`
-- د: `undefined` and `ReferenceError`
+- الف: `Lydia` و `undefined`
+- ب: `Lydia` و `ReferenceError`
+- ج: `ReferenceError` و `21`
+- د: `undefined` و `ReferenceError`
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
@@ -96,18 +96,18 @@ for (let i = 0; i < 3; i++) {
 }
 ```
 
-- الف: `0 1 2` and `0 1 2`
-- ب: `0 1 2` and `3 3 3`
-- ج: `3 3 3` and `0 1 2`
+- الف: `0 1 2` و `0 1 2`
+- ب: `0 1 2` و `3 3 3`
+- ج: `3 3 3` و `0 1 2`
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
 
-Because of the event queue in JavaScript, the `setTimeout` callback function is called _after_ the loop has been executed. Since the variable `i` in the first loop was declared using the `var` keyword, this value was global. During the loop, we incremented the value of `i` by `1` each time, using the unary operator `++`. By the time the `setTimeout` callback function was invoked, `i` was equal to `3` in the first example.
+به دلیل وجود صف رویداد (event queue) در جاوااسکریپت، تابع بازگشتی مربوط به `setTimeout` _بعد از_ اجرای کامل حلقه فراخوانی می‌شود.  از آنجایی که متغیر `i` در حلقه اول با استفاده از کلمه کلیدی `var` تعریف شده، این مقدار به صورت global (سراسری) در نظر گرفته می‌شود. در نتیجه در طول اجرای حلقه، مقدار `i` در هر بار تکرار با استفاده از عملگر unary `++` یک واحد `1` افزایش می‌یابد. تا زمانی که تابع بازگشتی `setTimeout` فراخوانی شود، مقدار `i` در مثال اول برابر با `3` خواهد بود.
 
-In the second loop, the variable `i` was declared using the `let` keyword: variables declared with the `let` (and `const`) keyword are block-scoped (a block is anything between `{ }`). During each iteration, `i` will have a new value, and each value is scoped inside the loop.
+در حلقه دوم، متغیر `i` با استفاده از کلمه کلیدی `let` تعریف شده است: متغیرهایی که با `let` (و `const`) تعریف می‌شوند، به صورت block-scoped هستند (یعنی محدوده آن‌ها محدود به بلوک `{ }` است). در هر تکرار، `i` یک مقدار جدیدی خواهد داشت و هر مقدار، تنها در محدوده (scoped) همان حلقه معتبر است.
 
 </p>
 </details>
