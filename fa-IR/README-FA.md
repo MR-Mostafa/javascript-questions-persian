@@ -4,7 +4,7 @@
 </div>
 
 > [!NOTE]
-> این مخزن در سال ۲۰۱۹ ایجاد شده است و سؤالات ارائه‌شده در اینجا بر اساس سینتکس و رفتار جاوااسکریپت در آن زمان هستند. از آنجا که جاوااسکریپت زبانی است که به طور مداوم در حال تکامل است، ویژگی‌های جدیدتری در زبان وجود دارد که در این سؤالات پوشش داده نشده‌اند.
+> این مخزن در سال 2019 ایجاد شده است و سؤالات ارائه‌شده در اینجا بر اساس سینتکس و رفتار جاوااسکریپت در آن زمان هستند. از آنجا که جاوااسکریپت زبانی است که به طور مداوم در حال تکامل است، ویژگی‌های جدیدتری در زبان وجود دارد که در این سؤالات پوشش داده نشده‌اند.
 
 ---
 
@@ -52,7 +52,7 @@
 
 ---
 
-###### 1. خروجی این کد چیست?
+###### 1. خروجی این کد چیست؟
 
 ```javascript
 function sayHi() {
@@ -84,7 +84,7 @@ sayHi();
 
 ---
 
-###### 2. خروجی این کد چیست?
+###### 2. خروجی این کد چیست؟
 
 ```javascript
 for (var i = 0; i < 3; i++) {
@@ -114,7 +114,7 @@ for (let i = 0; i < 3; i++) {
 
 ---
 
-###### 3. خروجی این کد چیست?
+###### 3. خروجی این کد چیست؟
 
 ```javascript
 const shape = {
@@ -150,7 +150,7 @@ Since there is no value `radius` in the scope of the arrow function, `this.radiu
 
 ---
 
-###### 4. خروجی این کد چیست?
+###### 4. خروجی این کد چیست؟
 
 ```javascript
 +true;
@@ -168,7 +168,7 @@ Since there is no value `radius` in the scope of the arrow function, `this.radiu
 
 The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.
 
-The string `'Lydia'` is a truthy value. What we're actually asking, is "Is this truthy value falsy?". This returns `false`.
+The string `'Lydia'` is a truthy value. What we're actually asking, is "Is this truthy value falsy؟". This returns `false`.
 
 </p>
 </details>
@@ -211,7 +211,7 @@ However, with dot notation, this doesn't happen. `mouse` does not have a key cal
 
 ---
 
-###### 6. خروجی این کد چیست?
+###### 6. خروجی این کد چیست؟
 
 ```javascript
 let c = { greeting: 'Hey!' };
@@ -246,7 +246,7 @@ When you change one object, you change all of them.
 
 ---
 
-###### 7. خروجی این کد چیست?
+###### 7. خروجی این کد چیست؟
 
 ```javascript
 let a = 3;
@@ -279,7 +279,7 @@ However, when we use the `===` operator (Strict equality operator), both value _
 
 ---
 
-###### 8. خروجی این کد چیست?
+###### 8. خروجی این کد چیست؟
 
 ```javascript
 class Chameleon {
@@ -314,7 +314,7 @@ The `colorChange` function is static. Static methods are designed to live only o
 
 ---
 
-###### 9. خروجی این کد چیست?
+###### 9. خروجی این کد چیست؟
 
 ```javascript
 let greeting;
@@ -374,7 +374,7 @@ A function is a special type of object. The code you write yourself isn't the ac
 
 ---
 
-###### 11. خروجی این کد چیست?
+###### 11. خروجی این کد چیست؟
 
 ```javascript
 function Person(firstName, lastName) {
@@ -415,7 +415,7 @@ Person.prototype.getFullName = function () {
 
 ---
 
-###### 12. خروجی این کد چیست?
+###### 12. خروجی این کد چیست؟
 
 ```javascript
 function Person(firstName, lastName) {
@@ -487,7 +487,7 @@ All objects have prototypes, except for the **base object**. The base object is 
 
 ---
 
-###### 15. خروجی این کد چیست?
+###### 15. خروجی این کد چیست؟
 
 ```javascript
 function sum(a, b) {
@@ -516,7 +516,7 @@ In this example, JavaScript converts the number `1` into a string, in order for 
 
 ---
 
-###### 16. خروجی این کد چیست?
+###### 16. خروجی این کد چیست؟
 
 ```javascript
 let number = 0;
@@ -552,7 +552,7 @@ This returns `0 2 2`.
 
 ---
 
-###### 17. خروجی این کد چیست?
+###### 17. خروجی این کد چیست؟
 
 ```javascript
 function getPersonInfo(one, two, three) {
@@ -583,7 +583,7 @@ If you use tagged template literals, the value of the first argument is always a
 
 ---
 
-###### 18. خروجی این کد چیست?
+###### 18. خروجی این کد چیست؟
 
 ```javascript
 function checkAge(data) {
@@ -619,7 +619,7 @@ This is why both `{ age: 18 } === { age: 18 }` and `{ age: 18 } == { age: 18 }` 
 
 ---
 
-###### 19. خروجی این کد چیست?
+###### 19. خروجی این کد چیست؟
 
 ```javascript
 function getAge(...args) {
@@ -646,7 +646,7 @@ The rest parameter (`...args`) lets us "collect" all remaining arguments into an
 
 ---
 
-###### 20. خروجی این کد چیست?
+###### 20. خروجی این کد چیست؟
 
 ```javascript
 function getAge() {
@@ -698,7 +698,7 @@ const sum = eval('10*10+5');
 
 ---
 
-###### 22. How long is cool_secret accessible?
+###### 22. How long is cool_secret accessible؟
 
 ```javascript
 sessionStorage.setItem('cool_secret', 123);
@@ -723,7 +723,7 @@ If you used `localStorage`, the data would've been there forever, unless for exa
 
 ---
 
-###### 23. خروجی این کد چیست?
+###### 23. خروجی این کد چیست؟
 
 ```javascript
 var num = 8;
@@ -751,7 +751,7 @@ You cannot do this with `let` or `const` since they're block-scoped and therefor
 
 ---
 
-###### 24. خروجی این کد چیست?
+###### 24. خروجی این کد چیست؟
 
 ```javascript
 const obj = { 1: 'a', 2: 'b', 3: 'c' };
@@ -782,7 +782,7 @@ It doesn't work that way for a set. There is no `'1'` in our set: `set.has('1')`
 
 ---
 
-###### 25. خروجی این کد چیست?
+###### 25. خروجی این کد چیست؟
 
 ```javascript
 const obj = { a: 'one', b: 'two', a: 'three' };
@@ -824,7 +824,7 @@ The base execution context is the global execution context: it's what's accessib
 
 ---
 
-###### 27. خروجی این کد چیست?
+###### 27. خروجی این کد چیست؟
 
 ```javascript
 for (let i = 1; i < 5; i++) {
@@ -850,7 +850,7 @@ The `continue` statement skips an iteration if a certain condition returns `true
 
 ---
 
-###### 28. خروجی این کد چیست?
+###### 28. خروجی این کد چیست؟
 
 ```javascript
 String.prototype.giveLydiaPizza = () => {
@@ -879,7 +879,7 @@ console.log(name.giveLydiaPizza());
 
 ---
 
-###### 29. خروجی این کد چیست?
+###### 29. خروجی این کد چیست؟
 
 ```javascript
 const a = {};
@@ -913,7 +913,7 @@ Then, we log `a[b]`, which is actually `a["[object Object]"]`. We just set that 
 
 ---
 
-###### 30. خروجی این کد چیست?
+###### 30. خروجی این کد چیست؟
 
 ```javascript
 const foo = () => console.log('First');
@@ -993,7 +993,7 @@ The deepest nested element that caused the event is the target of the event. You
 
 ---
 
-###### 32. When you click the paragraph, what's the logged output?
+###### 32. وقتی روی پاراگراف کلیک می‌کنید، چه خروجی‌ای در لاگ ثبت می‌شود؟
 
 ```html
 <div onclick="console.log('div')">
@@ -1018,7 +1018,7 @@ If we click `p`, we see two logs: `p` and `div`. During event propagation, there
 
 ---
 
-###### 33. خروجی این کد چیست?
+###### 33. خروجی این کد چیست؟
 
 ```javascript
 const person = { name: 'Lydia' };
@@ -1050,7 +1050,7 @@ With both, we can pass the object to which we want the `this` keyword to refer t
 
 ---
 
-###### 34. خروجی این کد چیست?
+###### 34. خروجی این کد چیست؟
 
 ```javascript
 function sayHi() {
@@ -1118,7 +1118,7 @@ Function constructors, like `new Number` and `new Boolean` are truthy.
 
 ---
 
-###### 36. خروجی این کد چیست?
+###### 36. خروجی این کد چیست؟
 
 ```javascript
 console.log(typeof typeof 1);
@@ -1142,7 +1142,7 @@ console.log(typeof typeof 1);
 
 ---
 
-###### 37. خروجی این کد چیست?
+###### 37. خروجی این کد چیست؟
 
 ```javascript
 const numbers = [1, 2, 3];
@@ -1171,7 +1171,7 @@ depending on where you run it (it's different for every browser, node, etc.)
 
 ---
 
-###### 38. خروجی این کد چیست?
+###### 38. خروجی این کد چیست؟
 
 ```javascript
 (() => {
@@ -1231,7 +1231,7 @@ What differentiates a primitive from an object is that primitives do not have an
 
 ---
 
-###### 40. خروجی این کد چیست?
+###### 40. خروجی این کد چیست؟
 
 ```javascript
 [
@@ -1264,7 +1264,7 @@ Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and ge
 
 ---
 
-###### 41. خروجی این کد چیست?
+###### 41. خروجی این کد چیست؟
 
 ```javascript
 !!null;
@@ -1339,7 +1339,7 @@ A string is an iterable. The spread operator maps every character of an iterable
 
 ---
 
-###### 44. خروجی این کد چیست?
+###### 44. خروجی این کد چیست؟
 
 ```javascript
 function* generator(i) {
@@ -1405,7 +1405,7 @@ When we pass multiple promises to the `Promise.race` method, it resolves/rejects
 
 ---
 
-###### 46. خروجی این کد چیست?
+###### 46. خروجی این کد چیست؟
 
 ```javascript
 let person = { name: 'Lydia' };
@@ -1444,7 +1444,7 @@ We are only modifying the value of the `person` variable, and not the first elem
 
 ---
 
-###### 47. خروجی این کد چیست?
+###### 47. خروجی این کد چیست؟
 
 ```javascript
 const person = {
@@ -1474,7 +1474,7 @@ With a `for-in` loop, we can iterate through object keys, in this case `name` an
 
 ---
 
-###### 48. خروجی این کد چیست?
+###### 48. خروجی این کد چیست؟
 
 ```javascript
 console.log(3 + 4 + '5');
@@ -1526,7 +1526,7 @@ Only the first number in the string is returned. Based on the _radix_ (the secon
 
 ---
 
-###### 50. خروجی این کد چیست?
+###### 50. خروجی این کد چیست؟
 
 ```javascript
 [1, 2, 3].map((num) => {
@@ -1554,7 +1554,7 @@ However, we don’t return a value. When we don’t return a value from the func
 
 ---
 
-###### 51. خروجی این کد چیست?
+###### 51. خروجی این کد چیست؟
 
 ```javascript
 function getInfo(member, year) {
@@ -1591,7 +1591,7 @@ The value of `person` is an object. The argument `member` has a (copied) referen
 
 ---
 
-###### 52. خروجی این کد چیست?
+###### 52. خروجی این کد چیست؟
 
 ```javascript
 function greeting() {
@@ -1629,7 +1629,7 @@ With the `catch` statement, we can specify what to do if an exception is thrown 
 
 ---
 
-###### 53. خروجی این کد چیست?
+###### 53. خروجی این کد چیست؟
 
 ```javascript
 function Car() {
@@ -1660,7 +1660,7 @@ In this case, the constructor function `Car` explicitly returns a new object wit
 
 ---
 
-###### 54. خروجی این کد چیست?
+###### 54. خروجی این کد چیست؟
 
 ```javascript
 (() => {
@@ -1699,7 +1699,7 @@ However, we created a global variable `y` when setting `y` equal to `10`. This v
 
 ---
 
-###### 55. خروجی این کد چیست?
+###### 55. خروجی این کد چیست؟
 
 ```javascript
 class Dog {
@@ -1740,7 +1740,7 @@ When we try to invoke something that is not a function, a `TypeError` is thrown.
 
 ---
 
-###### 56. خروجی این کد چیست?
+###### 56. خروجی این کد چیست؟
 
 ```javascript
 const set = new Set([1, 1, 2, 3, 4]);
@@ -1767,7 +1767,7 @@ We passed the iterable `[1, 1, 2, 3, 4]` with a duplicate value `1`. Since we ca
 
 ---
 
-###### 57. خروجی این کد چیست?
+###### 57. خروجی این کد چیست؟
 
 ```javascript
 // counter.js
@@ -1803,7 +1803,7 @@ When we try to increment the value of `myCounter`, it throws an error: `myCounte
 
 ---
 
-###### 58. خروجی این کد چیست?
+###### 58. خروجی این کد چیست؟
 
 ```javascript
 const name = 'Lydia';
@@ -1832,7 +1832,7 @@ The `name` variable was declared with a `const` keyword, so its deletion is not 
 
 ---
 
-###### 59. خروجی این کد چیست?
+###### 59. خروجی این کد چیست؟
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -1874,7 +1874,7 @@ This means that the value of `y` is equal to the first value in the array, which
 
 ---
 
-###### 60. خروجی این کد چیست?
+###### 60. خروجی این کد چیست؟
 
 ```javascript
 const user = { name: 'Lydia', age: 21 };
@@ -1900,7 +1900,7 @@ It's possible to combine objects using the spread operator `...`. It lets you cr
 
 ---
 
-###### 61. خروجی این کد چیست?
+###### 61. خروجی این کد چیست؟
 
 ```javascript
 const person = { name: 'Lydia' };
@@ -1930,7 +1930,7 @@ Properties added using the `defineProperty` method are immutable by default. You
 
 ---
 
-###### 62. خروجی این کد چیست?
+###### 62. خروجی این کد چیست؟
 
 ```javascript
 const settings = {
@@ -1964,7 +1964,7 @@ If the replacer is a _function_, this function gets called on every property in 
 
 ---
 
-###### 63. خروجی این کد چیست?
+###### 63. خروجی این کد چیست؟
 
 ```javascript
 let num = 10;
@@ -1998,7 +1998,7 @@ The unary operator `++` _first returns_ the value of the operand, _then incremen
 
 ---
 
-###### 64. خروجی این کد چیست?
+###### 64. خروجی این کد چیست؟
 
 ```javascript
 const value = { number: 10 };
@@ -2036,7 +2036,7 @@ The fourth time, we pass the `value` object again. `x.number` was previously mod
 
 ---
 
-###### 65. خروجی این کد چیست?
+###### 65. خروجی این کد چیست؟
 
 ```javascript
 [1, 2, 3, 4].reduce((x, y) => console.log(x, y));
@@ -2069,7 +2069,7 @@ On the fourth call, we again don't return from the callback function. The accumu
 
 ---
 
-###### 66. With which constructor can we successfully extend the `Dog` class?
+###### 66. With which constructor can we successfully extend the `Dog` class؟
 
 ```javascript
 class Dog {
@@ -2123,7 +2123,7 @@ The `Labrador` class receives two arguments, `name` since it extends `Dog`, and 
 
 ---
 
-###### 67. خروجی این کد چیست?
+###### 67. خروجی این کد چیست؟
 
 ```javascript
 // index.js
@@ -2155,7 +2155,7 @@ This is a difference between `require()` in CommonJS and `import`! With `require
 
 ---
 
-###### 68. خروجی این کد چیست?
+###### 68. خروجی این کد چیست؟
 
 ```javascript
 console.log(Number(2) === Number(2));
@@ -2180,7 +2180,7 @@ Every Symbol is entirely unique. The purpose of the argument passed to the Symbo
 
 ---
 
-###### 69. خروجی این کد چیست?
+###### 69. خروجی این کد چیست؟
 
 ```javascript
 const name = 'Lydia Hallie';
@@ -2207,7 +2207,7 @@ If the argument passed to the `padStart` method is smaller than the length of th
 
 ---
 
-###### 70. خروجی این کد چیست?
+###### 70. خروجی این کد چیست؟
 
 ```javascript
 console.log('🥑' + '💻');
@@ -2230,11 +2230,11 @@ With the `+` operator, you can concatenate strings. In this case, we are concate
 
 ---
 
-###### 71. How can we log the values that are commented out after the console.log statement?
+###### 71. How can we log the values that are commented out after the console.log statement؟
 
 ```javascript
 function* startGame() {
-  const answer = yield 'Do you love JavaScript?';
+  const answer = yield 'Do you love JavaScript؟';
   if (answer !== 'Yes') {
     return "Oh wow... Guess we're done here";
   }
@@ -2242,7 +2242,7 @@ function* startGame() {
 }
 
 const game = startGame();
-console.log(/* 1 */); // Do you love JavaScript?
+console.log(/* 1 */); // Do you love JavaScript؟
 console.log(/* 2 */); // JavaScript loves you back ❤️
 ```
 
@@ -2256,7 +2256,7 @@ console.log(/* 2 */); // JavaScript loves you back ❤️
 
 #### پاسخ: ج
 
-A generator function "pauses" its execution when it sees the `yield` keyword. First, we have to let the function yield the string "Do you love JavaScript?", which can be done by calling `game.next().value`.
+A generator function "pauses" its execution when it sees the `yield` keyword. First, we have to let the function yield the string "Do you love JavaScript؟", which can be done by calling `game.next().value`.
 
 Every line is executed, until it finds the first `yield` keyword. There is a `yield` keyword on the first line within the function: the execution stops with the first yield! _This means that the variable `answer` is not defined yet!_
 
@@ -2267,7 +2267,7 @@ When we call `game.next("Yes").value`, the previous `yield` is replaced with the
 
 ---
 
-###### 72. خروجی این کد چیست?
+###### 72. خروجی این کد چیست؟
 
 ```javascript
 console.log(String.raw`Hello\nworld`);
@@ -2302,7 +2302,7 @@ In this case, the string is `Hello\nworld`, which gets logged.
 
 ---
 
-###### 73. خروجی این کد چیست?
+###### 73. خروجی این کد چیست؟
 
 ```javascript
 async function getData() {
@@ -2336,7 +2336,7 @@ This would've logged `"I made it!"`
 
 ---
 
-###### 74. خروجی این کد چیست?
+###### 74. خروجی این کد چیست؟
 
 ```javascript
 function addToList(item, list) {
@@ -2366,7 +2366,7 @@ The `push` method modifies the original array. If you wanted to return the _arra
 
 ---
 
-###### 75. خروجی این کد چیست?
+###### 75. خروجی این کد چیست؟
 
 ```javascript
 const box = { x: 10, y: 20 };
@@ -2400,7 +2400,7 @@ Since `shape` is frozen, and since the value of `x` is not an object, we cannot 
 
 ---
 
-###### 76. خروجی این کد چیست?
+###### 76. خروجی این کد چیست؟
 
 ```javascript
 const { firstName: myName } = { firstName: 'Lydia' };
@@ -2462,7 +2462,7 @@ Whenever Javascript is unable to find a variable within the _current scope_, it 
 
 ---
 
-###### 77. Is this a pure function?
+###### 77. Is this a pure function؟
 
 ```javascript
 function sum(a, b) {
@@ -2487,7 +2487,7 @@ The `sum` function always returns the same result. If we pass `1` and `2`, it wi
 
 ---
 
-###### 78. خروجی این کد چیست?
+###### 78. خروجی این کد چیست؟
 
 ```javascript
 const add = () => {
@@ -2534,7 +2534,7 @@ The third time, we pass `5 * 2` to the function which gets evaluated to `10`. Th
 
 ---
 
-###### 79. خروجی این کد چیست?
+###### 79. خروجی این کد چیست؟
 
 ```javascript
 const myLifeSummedUp = ['☕', '💻', '🍷', '🍫'];
@@ -2571,7 +2571,7 @@ With a _for-of_ loop, we can iterate over **iterables**. An array is an iterable
 
 ---
 
-###### 80. خروجی این کد چیست?
+###### 80. خروجی این کد چیست؟
 
 ```javascript
 const list = [1 + 2, 1 * 2, 1 / 2];
@@ -2597,7 +2597,7 @@ The element will be equal to the returned value. `1 + 2` returns `3`, `1 * 2` re
 
 ---
 
-###### 81. خروجی این کد چیست?
+###### 81. خروجی این کد چیست؟
 
 ```javascript
 function sayHi(name) {
@@ -2630,7 +2630,7 @@ In this case, if we didn't pass a value or if we passed `undefined`, `name` woul
 
 ---
 
-###### 82. خروجی این کد چیست?
+###### 82. خروجی این کد چیست؟
 
 ```javascript
 var status = '😎';
@@ -2669,7 +2669,7 @@ With the `call` method, we can change the object to which the `this` keyword ref
 
 ---
 
-###### 83. خروجی این کد چیست?
+###### 83. خروجی این کد چیست؟
 
 ```javascript
 const person = {
@@ -2706,7 +2706,7 @@ When logging the `person` object, the unmodified object gets returned.
 
 ---
 
-###### 84. خروجی این کد چیست?
+###### 84. خروجی این کد چیست؟
 
 ```javascript
 function checkAge(age) {
@@ -2795,7 +2795,7 @@ By setting `hasName` equal to `name`, you set `hasName` equal to whatever value 
 
 ---
 
-###### 87. خروجی این کد چیست?
+###### 87. خروجی این کد چیست؟
 
 ```javascript
 console.log('I want pizza'[0]);
@@ -2820,7 +2820,7 @@ Note that this method is not supported in IE7 and below. In that case, use `.cha
 
 ---
 
-###### 88. خروجی این کد چیست?
+###### 88. خروجی این کد چیست؟
 
 ```javascript
 function sum(num1, num2 = num1) {
@@ -2849,7 +2849,7 @@ If you're trying to set a default parameter's value equal to a parameter that is
 
 ---
 
-###### 89. خروجی این کد چیست?
+###### 89. خروجی این کد چیست؟
 
 ```javascript
 // module.js
@@ -2881,7 +2881,7 @@ The `data` object has a `default` property for the default export, other propert
 
 ---
 
-###### 90. خروجی این کد چیست?
+###### 90. خروجی این کد چیست؟
 
 ```javascript
 class Person {
@@ -2919,7 +2919,7 @@ Calling a function constructor with `new` results in the creation of an instance
 
 ---
 
-###### 91. خروجی این کد چیست?
+###### 91. خروجی این کد چیست؟
 
 ```javascript
 let newList = [1, 2, 3].push(4);
@@ -2946,7 +2946,7 @@ Then, we try to use the `.push` method on `newList`. Since `newList` is the nume
 
 ---
 
-###### 92. خروجی این کد چیست?
+###### 92. خروجی این کد چیست؟
 
 ```javascript
 function giveLydiaPizza() {
@@ -2976,7 +2976,7 @@ Regular functions, such as the `giveLydiaPizza` function, have a `prototype` pro
 
 ---
 
-###### 93. خروجی این کد چیست?
+###### 93. خروجی این کد چیست؟
 
 ```javascript
 const person = {
@@ -3013,7 +3013,7 @@ The second subarray is `[ "age", 21 ]`, with `x` equal to `"age"`, and `y` equal
 
 ---
 
-###### 94. خروجی این کد چیست?
+###### 94. خروجی این کد چیست؟
 
 ```javascript
 function getItems(fruitList, ...args, favoriteFruit) {
@@ -3050,7 +3050,7 @@ The above example works. This returns the array `[ 'banana', 'apple', 'orange', 
 
 ---
 
-###### 95. خروجی این کد چیست?
+###### 95. خروجی این کد چیست؟
 
 ```javascript
 function nums(a, b) {
@@ -3090,7 +3090,7 @@ This means that `a + b` is never reached, since a function stops running after t
 
 ---
 
-###### 96. خروجی این کد چیست?
+###### 96. خروجی این کد چیست؟
 
 ```javascript
 class Person {
@@ -3126,7 +3126,7 @@ We can set classes equal to other classes/function constructors. In this case, w
 
 ---
 
-###### 97. خروجی این کد چیست?
+###### 97. خروجی این کد چیست؟
 
 ```javascript
 const info = {
@@ -3156,7 +3156,7 @@ This is one of the many qualities of a symbol: besides representing an entirely 
 
 ---
 
-###### 98. خروجی این کد چیست?
+###### 98. خروجی این کد چیست؟
 
 ```javascript
 const getList = ([x, ...y]) => [x, y]
@@ -3196,7 +3196,7 @@ The following function would have returned an object:
 
 ---
 
-###### 99. خروجی این کد چیست?
+###### 99. خروجی این کد چیست؟
 
 ```javascript
 const name = 'Lydia';
@@ -3522,7 +3522,7 @@ With `splice` method, we modify the original array by deleting, replacing or add
 
 ---
 
-###### 109. خروجی این کد چیست?
+###### 109. خروجی این کد چیست؟
 
 ```javascript
 const food = ['🍕', '🍫', '🥑', '🍔'];
@@ -3591,7 +3591,7 @@ JSON.parse(jsonArray); // { name: 'Lydia' }
 
 ---
 
-###### 111. خروجی این کد چیست?
+###### 111. خروجی این کد چیست؟
 
 ```javascript
 let name = 'Lydia';
@@ -3635,7 +3635,7 @@ getName(); // Lydia
 
 ---
 
-###### 112. خروجی این کد چیست?
+###### 112. خروجی این کد چیست؟
 
 ```javascript
 function* generatorOne() {
@@ -3686,7 +3686,7 @@ console.log(two.next().value); // undefined
 
 ---
 
-###### 113. خروجی این کد چیست?
+###### 113. خروجی این کد چیست؟
 
 ```javascript
 console.log(`${((x) => x)('I love')} to program`);
@@ -3778,7 +3778,7 @@ When adding a key/value pair using the `set` method, the key will be the value o
 
 ---
 
-###### 116. خروجی این کد چیست?
+###### 116. خروجی این کد چیست؟
 
 ```javascript
 const person = {
@@ -3844,7 +3844,7 @@ With the spread operator `...`, we can _spread_ iterables to individual elements
 
 ---
 
-###### 118. خروجی این کد چیست?
+###### 118. خروجی این کد چیست؟
 
 ```javascript
 let num = 1;
@@ -3870,7 +3870,7 @@ With the `+=` operator, we're incrementing the value of `num` by `1`. `num` had 
 
 ---
 
-###### 119. خروجی این کد چیست?
+###### 119. خروجی این کد چیست؟
 
 ```javascript
 const person = {
@@ -3885,10 +3885,10 @@ const person = {
   },
 };
 
-console.log(person.pet?.name);
-console.log(person.pet?.family?.name);
-console.log(person.getFullName?.());
-console.log(member.getLastName?.());
+console.log(person.pet؟.name);
+console.log(person.pet؟.family؟.name);
+console.log(person.getFullName؟.());
+console.log(member.getLastName؟.());
 ```
 
 - الف: `undefined` `undefined` `undefined` `undefined`
@@ -3901,19 +3901,19 @@ console.log(member.getLastName?.());
 
 #### پاسخ: ب
 
-With the optional chaining operator `?.`, we no longer have to explicitly check whether the deeper nested values are valid or not. If we're trying to access a property on an `undefined` or `null` value (_nullish_), the expression short-circuits and returns `undefined`.
+With the optional chaining operator `؟.`, we no longer have to explicitly check whether the deeper nested values are valid or not. If we're trying to access a property on an `undefined` or `null` value (_nullish_), the expression short-circuits and returns `undefined`.
 
-`person.pet?.name`: `person` has a property named `pet`: `person.pet` is not nullish. It has a property called `name`, and returns `Mara`.
-`person.pet?.family?.name`: `person` has a property named `pet`: `person.pet` is not nullish. `pet` does _not_ have a property called `family`, `person.pet.family` is nullish. The expression returns `undefined`.
-`person.getFullName?.()`: `person` has a property named `getFullName`: `person.getFullName()` is not nullish and can get invoked, which returns `Lydia Hallie`.
-`member.getLastName?.()`: variable `member` is non-existent therefore a `ReferenceError` gets thrown!
+`person.pet؟.name`: `person` has a property named `pet`: `person.pet` is not nullish. It has a property called `name`, and returns `Mara`.
+`person.pet؟.family؟.name`: `person` has a property named `pet`: `person.pet` is not nullish. `pet` does _not_ have a property called `family`, `person.pet.family` is nullish. The expression returns `undefined`.
+`person.getFullName؟.()`: `person` has a property named `getFullName`: `person.getFullName()` is not nullish and can get invoked, which returns `Lydia Hallie`.
+`member.getLastName؟.()`: variable `member` is non-existent therefore a `ReferenceError` gets thrown!
 
 </p>
 </details>
 
 ---
 
-###### 120. خروجی این کد چیست?
+###### 120. خروجی این کد چیست؟
 
 ```javascript
 const groceries = ['banana', 'apple', 'peanuts'];
@@ -3942,7 +3942,7 @@ We passed the condition `groceries.indexOf("banana")` to the if-statement. `groc
 
 ---
 
-###### 121. خروجی این کد چیست?
+###### 121. خروجی این کد چیست؟
 
 ```javascript
 const config = {
@@ -3972,7 +3972,7 @@ The `language` method is a `setter`. Setters don't hold an actual value, their p
 
 ---
 
-###### 122. خروجی این کد چیست?
+###### 122. خروجی این کد چیست؟
 
 ```javascript
 const name = 'Lydia Hallie';
@@ -4000,7 +4000,7 @@ console.log(!typeof name === 'string');
 
 ---
 
-###### 123. خروجی این کد چیست?
+###### 123. خروجی این کد چیست؟
 
 ```javascript
 const add = (x) => (y) => (z) => {
@@ -4021,14 +4021,14 @@ add(4)(5)(6);
 
 #### پاسخ: الف
 
-The `add` function returns an arrow function, which returns an arrow function, which returns an arrow function (still with me?). The first function receives an argument `x` with the value of `4`. We invoke the second function, which receives an argument `y` with the value `5`. Then we invoke the third function, which receives an argument `z` with the value `6`. When we're trying to access the value `x`, `y` and `z` within the last arrow function, the JS engine goes up the scope chain in order to find the values for `x` and `y` accordingly. This returns `4` `5` `6`.
+The `add` function returns an arrow function, which returns an arrow function, which returns an arrow function (still with me؟). The first function receives an argument `x` with the value of `4`. We invoke the second function, which receives an argument `y` with the value `5`. Then we invoke the third function, which receives an argument `z` with the value `6`. When we're trying to access the value `x`, `y` and `z` within the last arrow function, the JS engine goes up the scope chain in order to find the values for `x` and `y` accordingly. This returns `4` `5` `6`.
 
 </p>
 </details>
 
 ---
 
-###### 124. خروجی این کد چیست?
+###### 124. خروجی این کد چیست؟
 
 ```javascript
 async function* range(start, end) {
@@ -4062,7 +4062,7 @@ The generator function `range` returns an async object with promises for each it
 
 ---
 
-###### 125. خروجی این کد چیست?
+###### 125. خروجی این کد چیست؟
 
 ```javascript
 const myFunc = ({ x, y, z }) => {
@@ -4089,7 +4089,7 @@ myFunc(1, 2, 3);
 
 ---
 
-###### 126. خروجی این کد چیست?
+###### 126. خروجی این کد چیست؟
 
 ```javascript
 function getFine(speed, amount) {
@@ -4126,7 +4126,7 @@ With the `Intl.NumberFormat` method, we can format numeric values to any locale.
 
 ---
 
-###### 127. خروجی این کد چیست?
+###### 127. خروجی این کد چیست؟
 
 ```javascript
 const spookyItems = ['👻', '🎃', '🕸'];
@@ -4152,7 +4152,7 @@ By destructuring objects, we can unpack values from the right-hand object, and a
 
 ---
 
-###### 128. خروجی این کد چیست?
+###### 128. خروجی این کد چیست؟
 
 ```javascript
 const name = 'Lydia Hallie';
@@ -4184,7 +4184,7 @@ With the `isNaN` method, you can check if the value you pass is not a number. `n
 
 ---
 
-###### 129. خروجی این کد چیست?
+###### 129. خروجی این کد چیست؟
 
 ```javascript
 const randomValue = 21;
@@ -4214,7 +4214,7 @@ Variables declared with the `const` keyword are not referenceable before their i
 
 ---
 
-###### 130. خروجی این کد چیست?
+###### 130. خروجی این کد چیست؟
 
 ```javascript
 const myPromise = Promise.resolve('Woah some cool data');
@@ -4247,7 +4247,7 @@ In the `try` block, we're logging the awaited value of the `myPromise` variable:
 
 ---
 
-###### 131. خروجی این کد چیست?
+###### 131. خروجی این کد چیست؟
 
 ```javascript
 const emojis = ['🥑', ['✨', '✨', ['🍕', '🍕']]];
@@ -4272,7 +4272,7 @@ With the `flat` method, we can create a new, flattened array. The depth of the f
 
 ---
 
-###### 132. خروجی این کد چیست?
+###### 132. خروجی این کد چیست؟
 
 ```javascript
 class Counter {
@@ -4320,7 +4320,7 @@ We invoke `counterTwo.increment()`, which sets `count` to `3`. Then, we log the 
 
 ---
 
-###### 133. خروجی این کد چیست?
+###### 133. خروجی این کد چیست؟
 
 ```javascript
 const myPromise = Promise.resolve(Promise.resolve('Promise'));
@@ -4371,7 +4371,7 @@ Now, since `funcTwo` popped off the call stack, the call stack is empty. The cal
 
 ---
 
-###### 134. How can we invoke `sum` in `sum.js` from `index.js?`
+###### 134. How can we invoke `sum` in `sum.js` from `index.js؟`
 
 ```javascript
 // sum.js
@@ -4429,7 +4429,7 @@ We can invoke this function, by calling `sum.default`
 
 ---
 
-###### 135. خروجی این کد چیست?
+###### 135. خروجی این کد چیست؟
 
 ```javascript
 const handler = {
@@ -4493,7 +4493,7 @@ However, you can still modify the value of existing properties.
 
 ---
 
-###### 137. Which of the following will modify the `person` object?
+###### 137. Which of the following will modify the `person` object؟
 
 ```javascript
 const person = {
@@ -4525,7 +4525,7 @@ However, it only _shallowly_ freezes the object, meaning that only _direct_ prop
 
 ---
 
-###### 138. خروجی این کد چیست?
+###### 138. خروجی این کد چیست؟
 
 ```javascript
 const add = (x) => x + x;
@@ -4557,7 +4557,7 @@ Then, we invoked `myFunc(3)` and passed the value `3` as the value for the argum
 
 ---
 
-###### 139. خروجی این کد چیست?
+###### 139. خروجی این کد چیست؟
 
 ```javascript
 class Counter {
@@ -4639,7 +4639,7 @@ If we would've written `yield`, `return yield`, or `return`, the entire generato
 
 ---
 
-###### 141. خروجی این کد چیست?
+###### 141. خروجی این کد چیست؟
 
 ```javascript
 const person = {
@@ -4684,7 +4684,7 @@ After pushing `dancing` and `baking`, the value of `person.hobbies` is `["coding
 
 ---
 
-###### 142. خروجی این کد چیست?
+###### 142. خروجی این کد چیست؟
 
 ```javascript
 class Bird {
@@ -4748,7 +4748,7 @@ The `const` keyword simply means we cannot _redeclare_ the value of that variabl
 
 ---
 
-###### 144. برای اینکه خروجی `[...person]` برابر با `["Lydia Hallie", 21]` باشد، چه چیزی باید به شیء `person` اضافه کنیم؟?
+###### 144. برای اینکه خروجی `[...person]` برابر با `["Lydia Hallie", 21]` باشد، چه چیزی باید به شیء `person` اضافه کنیم؟؟
 
 ```javascript
 const person = {
@@ -4776,7 +4776,7 @@ Objects aren't iterable by default. An iterable is an iterable if the iterator p
 
 ---
 
-###### 145. خروجی این کد چیست?
+###### 145. خروجی این کد چیست؟
 
 ```javascript
 let count = 0;
@@ -4806,11 +4806,11 @@ The `if` condition within the `forEach` loop checks whether the value of `num` i
 
 ---
 
-###### 146. خروجی این کد چیست?
+###### 146. خروجی این کد چیست؟
 
 ```javascript
 function getFruit(fruits) {
-  console.log(fruits?.[1]?.[1]);
+  console.log(fruits؟.[1]؟.[1]);
 }
 
 getFruit([['🍊', '🍌'], ['🍍']]);
@@ -4828,7 +4828,7 @@ getFruit([['🍍'], ['🍊', '🍌']]);
 
 #### پاسخ: د
 
-The `?` allows us to optionally access deeper nested properties within objects. We're trying to log the item on index `1` within the subarray that's on index `1` of the `fruits` array. If the subarray on index `1` in the `fruits` array doesn't exist, it'll simply return `undefined`. If the subarray on index `1` in the `fruits` array exists, but this subarray doesn't have an item on its `1` index, it'll also return `undefined`.
+The `؟` allows us to optionally access deeper nested properties within objects. We're trying to log the item on index `1` within the subarray that's on index `1` of the `fruits` array. If the subarray on index `1` in the `fruits` array doesn't exist, it'll simply return `undefined`. If the subarray on index `1` in the `fruits` array exists, but this subarray doesn't have an item on its `1` index, it'll also return `undefined`.
 
 First, we're trying to log the second item in the `['🍍']` subarray of `[['🍊', '🍌'], ['🍍']]`. This subarray only contains one item, which means there is no item on index `1`, and returns `undefined`.
 
@@ -4841,7 +4841,7 @@ Lastly, we're trying to log the second item in the `['🍊', '🍌']` subarray o
 
 ---
 
-###### 147. خروجی این کد چیست?
+###### 147. خروجی این کد چیست؟
 
 ```javascript
 class Calc {
@@ -4877,7 +4877,7 @@ We set the variable `calc` equal to a new instance of the `Calc` class. Then, we
 
 ---
 
-###### 148. خروجی این کد چیست?
+###### 148. خروجی این کد چیست؟
 
 ```javascript
 const user = {
@@ -4919,7 +4919,7 @@ The `updateUser` function updates the values of the `email` and `password` prope
 
 ---
 
-###### 149. خروجی این کد چیست?
+###### 149. خروجی این کد چیست؟
 
 ```javascript
 const fruit = ['🍌', '🍊', '🍎'];
@@ -4950,7 +4950,7 @@ At last, we invoke the `unshift` method on the `fruit` array, which modifies the
 
 ---
 
-###### 150. خروجی این کد چیست?
+###### 150. خروجی این کد چیست؟
 
 ```javascript
 const animals = {};
@@ -4986,7 +4986,7 @@ Logging `animals[dog]`, or actually `animals["[object Object]"]` since convertin
 
 ---
 
-###### 151. خروجی این کد چیست?
+###### 151. خروجی این کد چیست؟
 
 ```javascript
 const user = {
@@ -5017,7 +5017,7 @@ The `updateEmail` function is an arrow function, and is not bound to the `user` 
 
 ---
 
-###### 152. خروجی این کد چیست?
+###### 152. خروجی این کد چیست؟
 
 ```javascript
 const promise1 = Promise.resolve('First');
@@ -5060,7 +5060,7 @@ const keys = ['name', 'age'];
 const values = ['Lydia', 22];
 
 const method =
-  /* ?? */
+  /* ؟؟ */
   Object[method](
     keys.map((_, i) => {
       return [keys[i], values[i]];
@@ -5087,7 +5087,7 @@ This creates an array of subarrays containing the correct keys and values, which
 
 ---
 
-###### 154. خروجی این کد چیست?
+###### 154. خروجی این کد چیست؟
 
 ```javascript
 const createMember = ({ email, address = {} }) => {
@@ -5096,7 +5096,7 @@ const createMember = ({ email, address = {} }) => {
 
   return {
     email,
-    address: address ? address : null,
+    address: address ؟ address : null,
   };
 };
 
@@ -5114,14 +5114,14 @@ console.log(member);
 
 #### پاسخ: ج
 
-The default value of `address` is an empty object `{}`. When we set the variable `member` equal to the object returned by the `createMember` function, we didn't pass a value for the address, which means that the value of the address is the default empty object `{}`. An empty object is a truthy value, which means that the condition of the `address ? address : null` conditional returns `true`. The value of the address is the empty object `{}`.
+The default value of `address` is an empty object `{}`. When we set the variable `member` equal to the object returned by the `createMember` function, we didn't pass a value for the address, which means that the value of the address is the default empty object `{}`. An empty object is a truthy value, which means that the condition of the `address ؟ address : null` conditional returns `true`. The value of the address is the empty object `{}`.
 
 </p>
 </details>
 
 ---
 
-###### 155. خروجی این کد چیست?
+###### 155. خروجی این کد چیست؟
 
 ```javascript
 let randomValue = { name: 'Lydia' };
