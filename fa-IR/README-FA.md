@@ -11,7 +11,7 @@
 <p align="center">
 از مبتدی تا پیشرفته: میزان دانش خود را در جاوااسکریپت را بسنجید، دانش‌تان را کمی تازه کنید یا برای مصاحبه کدنویسی آماده شوید! 💪🚀 من به طور مرتب این مخزن را با سؤالات جدید به‌روزرسانی می‌کنم. پاسخ‌ها در **بخش‌های مخفی‌شده** زیر هر سؤال قرار دارند؛ کافیست روی آن‌ها کلیک کنید تا باز شوند. این فقط برای سرگرمی است؛ موفق باشید! :heart:</p>
 
-<p align="center">Fدر صورت تمایل، با من در تماس باشید! 😊</p>
+<p align="center">در صورت تمایل، با من در تماس باشید! 😊</p>
 
 <p align="center">
   <a href="https://www.instagram.com/theavocoder">اینستاگرام</a> || <a href="https://www.twitter.com/lydiahallie">توییتر</a> || <a href="https://www.linkedin.com/in/lydia-hallie">لینکدین</a> || <a href="https://www.lydiahallie.io/">بلاگ</a>
@@ -20,7 +20,7 @@
 | با خیال راحت می‌توانید از این سؤالات در پروژه خود استفاده کنید! 😃 من _واقعا_ از اینکه به این مخزن اشاره می‌کنید قدردانی می‌کنم. من این سؤالات و توضیحات را ایجاد می‌کنم (بله، می‌دانم، کمی غمگین به نظر می‌رسد! 😅) و جامعه کمک بسیار زیادی به من می‌کند تا آن را نگهداری و بهبود دهم! 💪🏼 متشکرم و لذت ببرید! |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-<details><summary><strong> مشاهده 20 ترجمه موجود 🇮🇷🇸🇦🇪🇬🇧🇦🇩🇪🇪🇸🇫🇷🇮🇩🇯🇵🇰🇷🇳🇱🇧🇷🇷🇺🇹🇭🇹🇷🇺🇦🇻🇳🇨🇳🇹🇼🇽🇰</strong></summary>
+<details dir="rtl" align="right"><summary><strong> مشاهده 20 ترجمه موجود 🇮🇷🇸🇦🇪🇬🇧🇦🇩🇪🇪🇸🇫🇷🇮🇩🇯🇵🇰🇷🇳🇱🇧🇷🇷🇺🇹🇭🇹🇷🇺🇦🇻🇳🇨🇳🇹🇼🇽🇰</strong></summary>
 <p>
 
 - [🇮🇷 فارسی](./fa-IR/README-FA.md)
@@ -70,7 +70,7 @@ sayHi();
 - ج: `ReferenceError` and `21`
 - د: `undefined` and `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -100,7 +100,7 @@ for (let i = 0; i < 3; i++) {
 - ب: `0 1 2` and `3 3 3`
 - ج: `3 3 3` and `0 1 2`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -134,7 +134,7 @@ console.log(shape.perimeter());
 - ج: `20` and `63`
 - د: `NaN` and `63`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -161,7 +161,7 @@ Since there is no value `radius` in the scope of the arrow function, `this.radiu
 - ب: `false` and `NaN`
 - ج: `false` and `false`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -193,7 +193,7 @@ const mouse = {
 - ج: `mouse[bird["size"]]` is not valid
 - د: All of them are valid
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -228,7 +228,7 @@ console.log(d.greeting);
 - د: `ReferenceError`
 - هـ: `TypeError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -263,7 +263,7 @@ console.log(b === c);
 - ج: `true` `false` `false`
 - د: `false` `true` `true`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -302,7 +302,7 @@ console.log(freddie.colorChange('orange'));
 - ج: `green`
 - د: `TypeError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -326,7 +326,7 @@ console.log(greetign);
 - ب: `ReferenceError: greetign is not defined`
 - ج: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -360,7 +360,7 @@ bark.animal = 'dog';
 - ج: `"Woof"` gets logged.
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -395,7 +395,7 @@ console.log(member.getFullName());
 - ج: `Lydia Hallie`
 - د: `undefined` `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -435,7 +435,7 @@ console.log(sarah);
 - ج: `Person {firstName: "Lydia", lastName: "Hallie"}` and `{}`
 - د: `Person {firstName: "Lydia", lastName: "Hallie"}` and `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -456,7 +456,7 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
 - ج: Target > Bubbling > Capturing
 - د: Capturing > Target > Bubbling
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -475,7 +475,7 @@ During the **capturing** phase, the event goes through the ancestor elements dow
 - الف: true
 - ب: false
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -502,7 +502,7 @@ sum(1, '2');
 - ج: `"12"`
 - د: `3`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -530,7 +530,7 @@ console.log(number);
 - ج: `0` `2` `2`
 - د: `0` `1` `2`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -571,7 +571,7 @@ getPersonInfo`${person} is ${age} years old`;
 - ب: `["", " is ", " years old"]` `"Lydia"` `21`
 - ج: `"Lydia"` `["", " is ", " years old"]` `21`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -603,7 +603,7 @@ checkAge({ age: 18 });
 - ب: `You are still an adult.`
 - ج: `Hmm.. You don't have an age I guess`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -634,7 +634,7 @@ getAge(21);
 - ج: `"object"`
 - د: `"NaN"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -663,7 +663,7 @@ getAge();
 - ج: `ReferenceError`
 - د: `TypeError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -686,7 +686,7 @@ const sum = eval('10*10+5');
 - ج: `TypeError`
 - د: `"10*10+5"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -709,7 +709,7 @@ sessionStorage.setItem('cool_secret', 123);
 - ج: When the user closes the entire browser, not only the tab.
 - د: When the user shuts off their computer.
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -737,7 +737,7 @@ console.log(num);
 - ج: `SyntaxError`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -768,7 +768,7 @@ set.has(1);
 - ج: `true` `true` `false` `true`
 - د: `true` `true` `true` `true`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -794,7 +794,7 @@ console.log(obj);
 - ج: `{ a: "three", b: "two" }`
 - د: `SyntaxError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -812,7 +812,7 @@ If you have two keys with the same name, the key will be replaced. It will still
 - ب: false
 - ج: it depends
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -838,7 +838,7 @@ for (let i = 1; i < 5; i++) {
 - ج: `1` `2` `4`
 - د: `1` `3` `4`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -867,7 +867,7 @@ console.log(name.giveLydiaPizza());
 - ج: `SyntaxError`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -897,7 +897,7 @@ console.log(a[b]);
 - ج: `undefined`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -930,7 +930,7 @@ baz();
 - ج: `Second` `First` `Third`
 - د: `Second` `Third` `First`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -981,7 +981,7 @@ This is where an event loop starts to work. An **event loop** looks at the stack
 - ج: `button`
 - د: An array of all nested elements.
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1006,7 +1006,7 @@ The deepest nested element that caused the event is the target of the event. You
 - ج: `p`
 - د: `div`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1036,7 +1036,7 @@ console.log(sayHi.bind(person, 21));
 - ج: `Lydia is 21` `Lydia is 21`
 - د: `Lydia is 21` `function`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -1065,7 +1065,7 @@ console.log(typeof sayHi());
 - ج: `"function"`
 - د: `"undefined"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1095,7 +1095,7 @@ undefined;
 - ج: `0`, `''`, `new Boolean(false)`, `undefined`
 - د: All of them are falsy
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1129,7 +1129,7 @@ console.log(typeof typeof 1);
 - ج: `"object"`
 - د: `"undefined"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1155,7 +1155,7 @@ console.log(numbers);
 - ج: `[1, 2, 3, empty x 7, 11]`
 - د: `SyntaxError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1192,7 +1192,7 @@ depending on where you run it (it's different for every browser, node, etc.)
 - ج: `1` `1` `2`
 - د: `1` `undefined` `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1215,7 +1215,7 @@ Outside of the `catch` block, `x` is still `undefined`, and `y` is `2`. When we 
 - ج: trick question! only objects
 - د: number or object
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1250,7 +1250,7 @@ What differentiates a primitive from an object is that primitives do not have an
 - ج: `[1, 2, 0, 1, 2, 3]`
 - د: `[1, 2, 6]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1277,7 +1277,7 @@ Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and ge
 - ج: `false` `true` `true`
 - د: `true` `true` `false`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1304,7 +1304,7 @@ setInterval(() => console.log('Hi'), 1000);
 - ج: the passed function
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1327,7 +1327,7 @@ It returns a unique id. This id can be used to clear that interval with the `cle
 - ج: `[[], "Lydia"]`
 - د: `[["L", "y", "d", "i", "a"]]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1358,7 +1358,7 @@ console.log(gen.next().value);
 - ج: `10, 20`
 - د: `0, 10 and 10, 20`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1393,7 +1393,7 @@ Promise.race([firstPromise, secondPromise]).then((res) => console.log(res));
 - ج: `"two" "one"`
 - د: `"one" "two"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1420,7 +1420,7 @@ console.log(members);
 - ج: `[{}]`
 - د: `[{ name: "Lydia" }]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -1462,7 +1462,7 @@ for (const item in person) {
 - ج: `"Lydia", 21`
 - د: `["name", "Lydia"], ["age", 21]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1485,7 +1485,7 @@ console.log(3 + 4 + '5');
 - ج: `12`
 - د: `"12"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1512,7 +1512,7 @@ const num = parseInt('7*6', 10);
 - ج: `7`
 - د: `NaN`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1540,7 +1540,7 @@ Only the first number in the string is returned. Based on the _radix_ (the secon
 - ج: `[undefined, undefined, undefined]`
 - د: `[ 3 x empty ]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1575,7 +1575,7 @@ console.log(person, birthYear);
 - ج: `{ name: "Lydia" }, "1998"`
 - د: `{ name: "Sarah" }, "1997"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1615,7 +1615,7 @@ sayHi();
 - ج: `SyntaxError: can only throw Error objects`
 - د: `Oh no an error: Hello world!`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -1646,7 +1646,7 @@ console.log(myCar.make);
 - ج: `ReferenceError`
 - د: `TypeError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1676,7 +1676,7 @@ console.log(typeof y);
 - ج: `"object", "number"`
 - د: `"number", "undefined"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1726,7 +1726,7 @@ pet.bark();
 - ج: `"Woof I am Mara"`, `undefined`
 - د: `TypeError`, `TypeError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1753,7 +1753,7 @@ console.log(set);
 - ج: `{1, 1, 2, 3, 4}`
 - د: `{1, 2, 3, 4}`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -1789,7 +1789,7 @@ console.log(myCounter);
 - ج: `Error`
 - د: `NaN`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1818,7 +1818,7 @@ console.log(delete age);
 - ج: `true`, `true`
 - د: `undefined`, `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1846,7 +1846,7 @@ console.log(y);
 - ج: `1`
 - د: `[1]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -1888,7 +1888,7 @@ console.log(admin);
 - ج: `{ admin: true, user: ["Lydia", 21] }`
 - د: `{ admin: true }`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1916,7 +1916,7 @@ console.log(Object.keys(person));
 - ج: `{ name: "Lydia"}`, `["name", "age"]`
 - د: `{ name: "Lydia"}`, `["age"]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -1948,7 +1948,7 @@ console.log(data);
 - ج: `"["level", "health"]"`
 - د: `"{"username": "lydiahallie", "level":19, "health":90}"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -1984,7 +1984,7 @@ console.log(num2);
 - ج: `11`, `11`
 - د: `11`, `12`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2018,7 +2018,7 @@ multiply(value);
 - ج: `20`, `20`, `20`, `40`
 - د: `NaN`, `NaN`, `20`, `40`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2047,7 +2047,7 @@ The fourth time, we pass the `value` object again. `x.number` was previously mod
 - ج: `1` `undefined` and `2` `undefined` and `3` `undefined` and `4` `undefined`
 - د: `1` `2` and `undefined` `3` and `undefined` `4`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -2107,7 +2107,7 @@ class Labrador extends Dog {
 - ج: 3
 - د: 4
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2141,7 +2141,7 @@ export const sum = (a, b) => a + b;
 - ج: `running sum.js`, `3`, `running index.js`
 - د: `running index.js`, `undefined`, `running sum.js`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2168,7 +2168,7 @@ console.log(Symbol('foo') === Symbol('foo'));
 - ج: `true`, `false`, `true`
 - د: `true`, `true`, `true`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2193,7 +2193,7 @@ console.log(name.padStart(2));
 - ج: `" Lydia Hallie"`, `"Lydia Hallie"` (`"[1x whitespace]Lydia Hallie"`, `"Lydia Hallie"`)
 - د: `"Lydia Hallie"`, `"Lyd"`,
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2218,7 +2218,7 @@ console.log('🥑' + '💻');
 - ج: A string containing their code points
 - د: Error
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2251,7 +2251,7 @@ console.log(/* 2 */); // JavaScript loves you back ❤️
 - ج: `game.next().value` and `game.next("Yes").value`
 - د: `game.next.value()` and `game.next.value("Yes")`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2278,7 +2278,7 @@ console.log(String.raw`Hello\nworld`);
 - ج: `Hello\nworld`
 - د: `Hello\n` <br /> &nbsp; &nbsp; &nbsp;`world`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2318,7 +2318,7 @@ console.log(data);
 - ج: `Promise {<pending>}`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2352,7 +2352,7 @@ console.log(result);
 - ج: `true`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2384,7 +2384,7 @@ console.log(shape);
 - ج: `{ x: 100 }`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2413,7 +2413,7 @@ console.log(firstName);
 - ج: `undefined`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -2473,7 +2473,7 @@ function sum(a, b) {
 - الف: Yes
 - ب: No
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2514,7 +2514,7 @@ console.log(addFunction(5 * 2));
 - ج: `Calculated! 20` `From cache! 20` `From cache! 20`
 - د: `Calculated! 20` `From cache! 20` `Error`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2553,7 +2553,7 @@ for (let item of myLifeSummedUp) {
 - ج: `"☕"` `"💻"` `"🍷"` `"🍫"` and `0` `1` `2` `3`
 - د: `0` `1` `2` `3` and `{0: "☕", 1: "💻", 2: "🍷", 3: "🍫"}`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2583,7 +2583,7 @@ console.log(list);
 - ج: `[3, 2, 0.5]`
 - د: `[1, 1, 1]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2612,7 +2612,7 @@ console.log(sayHi());
 - ج: `Hi there, null`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2655,7 +2655,7 @@ setTimeout(() => {
 - ج: `"😍"` and `"😎"`
 - د: `"😎"` and `"😎"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2688,7 +2688,7 @@ console.log(person);
 - ج: `{ name: "Lydia", age: 21, city: undefined }`
 - د: `"Amsterdam"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2727,7 +2727,7 @@ console.log(checkAge(21));
 - ج: `ReferenceError`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2752,7 +2752,7 @@ fetch('https://www.website.com/api/user/1')
 - ج: The result of the callback in the previous `.then()`.
 - د: It would always be undefined.
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2777,7 +2777,7 @@ function getName(name) {
 - ج: `new Boolean(name)`
 - د: `name.length`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2806,7 +2806,7 @@ console.log('I want pizza'[0]);
 - ج: `SyntaxError`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2835,7 +2835,7 @@ sum(10);
 - ج: `ReferenceError`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -2867,7 +2867,7 @@ console.log(data);
 - ج: `{ default: "Hello world", name: "Lydia" }`
 - د: Global object of `module.js`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -2899,7 +2899,7 @@ console.log(typeof member);
 - ج: `"object"`
 - د: `"string"`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -2932,7 +2932,7 @@ console.log(newList.push(5));
 - ج: `[1, 2, 3, 4]`
 - د: `Error`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -2964,7 +2964,7 @@ console.log(giveLydiaChocolate.prototype);
 - ج: `{ constructor: ...}` `{}`
 - د: `{ constructor: ...}` `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -2994,7 +2994,7 @@ for (const [x, y] of Object.entries(person)) {
 - ج: `["name", "age"]` and `undefined`
 - د: `Error`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -3028,7 +3028,7 @@ getItems(["banana", "apple"], "pear", "orange")
 - ج: `["banana", "apple", ["pear"], "orange"]`
 - د: `SyntaxError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -3069,7 +3069,7 @@ console.log(nums(1, 2));
 - ج: `undefined` and `undefined`
 - د: `SyntaxError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3114,7 +3114,7 @@ console.log(member.name);
 - ج: `Error: cannot redeclare Person`
 - د: `SyntaxError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3142,7 +3142,7 @@ console.log(Object.keys(info));
 - ج: `{ a: "b" }` and `["a"]`
 - د: `{Symbol('a'): 'b'}` and `[]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -3174,7 +3174,7 @@ console.log(getUser(user))
 - ج: `[1, 2, 3, 4]` and `{ name: "Lydia", age: 21 }`
 - د: `Error` and `{ name: "Lydia", age: 21 }`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -3209,7 +3209,7 @@ console.log(name());
 - ج: `TypeError`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3240,7 +3240,7 @@ You should${'' && `n't`} see a therapist after so much JavaScript lol`;
 - ج: `possible! You shouldn't see a therapist after so much JavaScript lol`
 - د: `Impossible! You shouldn't see a therapist after so much JavaScript lol`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3269,7 +3269,7 @@ console.log(one, two, three);
 - ج: `{}` `""` `[]`
 - د: `null` `null` `true`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3311,7 +3311,7 @@ secondFunction();
 - ج: `I have resolved!`, `second` and `second`, `I have resolved!`
 - د: `second`, `I have resolved!` and `I have resolved!`, `second`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -3350,7 +3350,7 @@ for (let item of set) {
 - ج: `3`, `Lydia2`, `[object Object]2`
 - د: `"12"`, `Lydia2`, `[object Object]2`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3379,7 +3379,7 @@ Promise.resolve(5);
 - ج: `Promise {<fulfilled>: 5}`
 - د: `Error`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3414,7 +3414,7 @@ compareMembers(person);
 - ج: `ReferenceError`
 - د: `SyntaxError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3453,7 +3453,7 @@ console.log(colorConfig.colors[1]);
 - ج: `undefined`
 - د: `TypeError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -3478,7 +3478,7 @@ console.log('❤️' === '❤️');
 - الف: `true`
 - ب: `false`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -3508,7 +3508,7 @@ emojis.splice(1, 2, '✨');
 - ج: `map` `slice` `splice`
 - د: `splice`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -3538,7 +3538,7 @@ console.log(food);
 - ج: `['🍝', '🍕', '🍫', '🥑', '🍔']`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -3565,7 +3565,7 @@ JSON.parse();
 - ج: Parses any JavaScript value to JSON
 - د: Parses JSON to a JavaScript object only
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -3609,7 +3609,7 @@ getName();
 - ج: `undefined`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -3658,7 +3658,7 @@ console.log(two.next().value);
 - ج: `['a', 'b', 'c']` and `a`
 - د: `a` and `['a', 'b', 'c']`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3697,7 +3697,7 @@ console.log(`${((x) => x)('I love')} to program`);
 - ج: `${(x => x)('I love') to program`
 - د: `TypeError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -3726,7 +3726,7 @@ config = null;
 - ج: The `setInterval` callback will still be called every second
 - د: We never invoked `config.alert()`, config is `null`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3763,7 +3763,7 @@ myMap.get(() => 'greeting');
 - ج: 2 and 3
 - د: All of them
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3803,7 +3803,7 @@ console.log(person);
 - ج: `{name: "Lydia", age: 22}`
 - د: `{name: "Lydia", age: 23}`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3832,7 +3832,7 @@ function sumValues(x, y, z) {
 - ج: `sumValues(...[1, 2, 3])`
 - د: `sumValues([1, 2, 3])`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -3858,7 +3858,7 @@ console.log(list[(num += 1)]);
 - ج: `SyntaxError`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3896,7 +3896,7 @@ console.log(member.getLastName?.());
 - ج: `Mara` `null` `Lydia Hallie` `null`
 - د: `null` `ReferenceError` `null` `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3930,7 +3930,7 @@ if (groceries.indexOf('banana')) {
 - ج: `undefined`
 - د: `1`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -3960,7 +3960,7 @@ console.log(config.language);
 - ج: `[]`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -3986,7 +3986,7 @@ console.log(!typeof name === 'string');
 - ج: `false` `false`
 - د: `true` `true`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4016,7 +4016,7 @@ add(4)(5)(6);
 - ج: `4` `function` `function`
 - د: `undefined` `undefined` `6`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -4050,7 +4050,7 @@ async function* range(start, end) {
 - ج: `1` `2` `3`
 - د: `undefined` `undefined` `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4077,7 +4077,7 @@ myFunc(1, 2, 3);
 - ج: `{ 1: undefined }` `undefined` `undefined`
 - د: `undefined` `undefined` `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -4114,7 +4114,7 @@ console.log(getFine(130, 300));
 - ج: The driver drove undefined and has to pay undefined
 - د: The driver drove 130.00 and has to pay 300.00
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -4140,7 +4140,7 @@ console.log(spookyItems);
 - ج: `["👻", "🎃", "🕸", { item: "💀" }]`
 - د: `["👻", "🎃", "🕸", "[object Object]"]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -4170,7 +4170,7 @@ console.log(isNaN(age));
 - ج: `false` `false` `true` `false`
 - د: `false` `true` `false` `true`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4202,7 +4202,7 @@ getInfo();
 - ج: `undefined`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -4235,7 +4235,7 @@ const myPromise = Promise.resolve('Woah some cool data');
 - ج: `Woah some cool data` `Oh finally!`
 - د: `Oops didn't work` `Oh finally!`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4260,7 +4260,7 @@ console.log(emojis.flat(1));
 - ج: `['🥑', ['✨', '✨', '🍕', '🍕']]`
 - د: `['🥑', '✨', '✨', '🍕', '🍕']`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -4300,7 +4300,7 @@ console.log(counterOne.count);
 - ج: `2`
 - د: `3`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -4347,7 +4347,7 @@ funcTwo();
 - ج: `Last line 1! Promise 2! Last line 2! Promise 1! Timeout 1! Timeout 2!`
 - د: `Timeout 1! Promise 1! Last line 1! Promise 2! Timeout 2! Last line 2!`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4388,7 +4388,7 @@ import * as sum from './sum';
 - ج: `sum.default(4)`
 - د: Default aren't imported with `*`, only named exports
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4448,7 +4448,7 @@ person.name;
 - ج: `Added a new property!` `Accessed a property!`
 - د: Nothing gets logged
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4479,7 +4479,7 @@ Object.seal(person);
 - ج: `delete person.name`
 - د: `Object.assign(person, { age: 21 })`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -4511,7 +4511,7 @@ Object.freeze(person);
 - ج: `person.address.street = "101 Main St"`
 - د: `person.pet = { name: "Mara" }`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4543,7 +4543,7 @@ myFunc(3);
 - ج: `2` `Error` and `3` `6`
 - د: `2` `4` and `3` `Error`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -4583,7 +4583,7 @@ console.log(counter.#number);
 - ج: `undefined`
 - د: `SyntaxError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -4625,7 +4625,7 @@ obj.next(); // { value: "Lisa", done: false }
 - ج: `return getMembers(teams[i].members)`
 - د: `return yield getMembers(teams[i].members)`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -4664,7 +4664,7 @@ console.log(person.hobbies);
 - ج: `["coding", "dancing", "baking"]`
 - د: `["coding", "running", "dancing", "baking"]`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4708,7 +4708,7 @@ const pet = new Flamingo();
 - ج: `I'm a bird. 🦢` `I'm pink. 🌸`
 - د: Nothing, we didn't call any method
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -4736,7 +4736,7 @@ const emojis = ['🎄', '🎅🏼', '🎁', '⭐'];
 - ج: 3 and 4
 - د: 3
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -4764,7 +4764,7 @@ const person = {
 - ج: `*[Symbol.iterator]() { yield* Object.values(this) }`
 - د: `*[Symbol.iterator]() { for (let x in this) yield this }`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4794,7 +4794,7 @@ console.log(count);
 - ج: 3
 - د: 4
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4823,7 +4823,7 @@ getFruit([['🍍'], ['🍊', '🍌']]);
 - ج: `[]`, `[]`, 🍌
 - د: `undefined`, `undefined`, 🍌
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -4865,7 +4865,7 @@ console.log(calc.count);
 - ج: `undefined`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -4907,7 +4907,7 @@ console.log(updatedUser === user);
 - ج: `TypeError`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -4936,7 +4936,7 @@ console.log(fruit);
 - ج: `['🍇', '🍊', '🍎']`
 - د: `['🍇', '🍌', '🍊', '🍎']`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -4968,7 +4968,7 @@ console.log(animals[dog]);
 - ج: `undefined`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
@@ -5005,7 +5005,7 @@ console.log(user.email);
 - ج: `undefined`
 - د: `ReferenceError`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
@@ -5041,7 +5041,7 @@ runPromises()
 - ج: `[['First', 'Second']]`
 - د: `'Third'`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: د
@@ -5073,7 +5073,7 @@ const method =
 - ج: `fromEntries`
 - د: `forEach`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -5109,7 +5109,7 @@ console.log(member);
 - ج: `{ email: "my@email.com", address: {} }`
 - د: `{ email: "my@email.com", address: undefined }`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
@@ -5139,7 +5139,7 @@ if (!typeof randomValue === 'string') {
 - ج: `TypeError`
 - د: `undefined`
 
-<details><summary><b>پاسخ</b></summary>
+<details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
