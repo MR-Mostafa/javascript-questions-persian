@@ -79,6 +79,12 @@ sayHi();
 
 متغیرهایی که با کلمه کلیدی `let` (و `const`) تعریف می‌شوند نیز hoisted می‌شوند، اما برخلاف `var`، <i>مقداردهی اولیه</i> نمی‌شوند. این متغیرها تا قبل از خطی که آن‌ها را تعریف (و مقداردهی) می‌کنیم، قابل دسترسی نیستند. این وضعیت به نام "منطقه مرده زمانی" (Temporal Dead Zone) شناخته می‌شود. اگر سعی کنیم قبل از تعریف این متغیرها به آن‌ها دسترسی پیدا کنیم، جاوااسکریپت یک خطای `ReferenceError` ایجاد می‌کند.
 
+<blockquote dir="ltr" align="left">
+Within the function, we first declare the `name` variable with the `var` keyword. This means that the variable gets hoisted (memory space is set up during the creation phase) with the default value of `undefined`, until we actually get to the line where we define the variable. We haven't defined the variable yet on the line where we try to log the `name` variable, so it still holds the value of `undefined`.
+
+Variables with the `let` keyword (and `const`) are hoisted, but unlike `var`, don't get <i>initialized</i>. They are not accessible before the line we declare (initialize) them. This is called the "temporal dead zone". When we try to access the variables before they are declared, JavaScript throws a `ReferenceError`.
+</blockquote>
+
 </p>
 </details>
 
@@ -108,6 +114,12 @@ for (let i = 0; i < 3; i++) {
 به دلیل وجود صف رویداد (event queue) در جاوااسکریپت، تابع بازگشتی مربوط به `setTimeout` _بعد از_ اجرای کامل حلقه فراخوانی می‌شود.  از آنجایی که متغیر `i` در حلقه اول با استفاده از کلمه کلیدی `var` تعریف شده، این مقدار به صورت global (سراسری) در نظر گرفته می‌شود. در نتیجه در طول اجرای حلقه، مقدار `i` در هر بار تکرار با استفاده از عملگر unary `++` یک واحد `1` افزایش می‌یابد. تا زمانی که تابع بازگشتی `setTimeout` فراخوانی شود، مقدار `i` در مثال اول برابر با `3` خواهد بود.
 
 در حلقه دوم، متغیر `i` با استفاده از کلمه کلیدی `let` تعریف شده است: متغیرهایی که با `let` (و `const`) تعریف می‌شوند، به صورت block-scoped هستند (یعنی محدوده آن‌ها محدود به بلوک `{ }` است). در هر تکرار، `i` یک مقدار جدیدی خواهد داشت و هر مقدار، تنها در محدوده (scoped) همان حلقه معتبر است.
+
+<blockquote dir="ltr" align="left">
+Because of the event queue in JavaScript, the `setTimeout` callback function is called _after_ the loop has been executed. Since the variable `i` in the first loop was declared using the `var` keyword, this value was global. During the loop, we incremented the value of `i` by `1` each time, using the unary operator `++`. By the time the `setTimeout` callback function was invoked, `i` was equal to `3` in the first example.
+
+In the second loop, the variable `i` was declared using the `let` keyword: variables declared with the `let` (and `const`) keyword are block-scoped (a block is anything between `{ }`). During each iteration, `i` will have a new value, and each value is scoped inside the loop.
+</blockquote>
 
 </p>
 </details>
