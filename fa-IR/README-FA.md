@@ -212,16 +212,25 @@ const mouse = {
 };
 ```
 
-- الف: `mouse.bird.size` is not valid
-- ب: `mouse[bird.size]` is not valid
-- ج: `mouse[bird["size"]]` is not valid
-- د: All of them are valid
+- الف: `mouse.bird.size` اشتباه است
+- ب: `mouse[bird.size]` اشتباه است
+- ج: `mouse[bird["size"]]` اشتباه است
+- د: همه گزینه‌ها صحیح است
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
 
+در جاوااسکریپت، تمام key های آبجکت، رشته (string) هستند (مگر اینکه از نوع Symbol باشند). حتی اگر آنها را به صورت رشته _تایپ_ نکنیم، جاوااسکریپت در پشت صحنه همیشه آن‌ها را به صورت خودکار به رشته تبدیل می‌کند.
+
+جاوااسکریپت دستورات را تحلیل و تفسیر می‌کند. وقتی از علامت براکت `[]` استفاده می‌کنیم، جاوااسکریپت ابتدا اولین براکت باز `[` را می‌بیند و تا زمانی که براکت بسته `]` را پیدا نکند، به خواندن ادامه می‌دهد. سپس، عبارت داخل براکت را ارزیابی می‌کند.
+
+در مورد عبارت `mouse[bird.size]`: جاوااسکریپت ابتدا مقدار `bird.size` را ارزیابی می‌کند که برابر با `"small"` است. سپس این مقدار به صورت `mouse["small"]` تفسیر می‌شود و نتیجه `true` را بازمی‌گردد.
+
+اما در مورد نشانه‌گذاری نقطه‌ای (Dot Notation)، این رفتار متفاوت است: آبجکت `mouse` هیچ کلیدی به نام `bird` ندارد. بنابراین `mouse.bird` مقدارش `undefined` است. سپس با استفاده از نقطه به ویژگی `size` دسترسی پیدا می‌کنیم: `mouse.bird.size`. چون `mouse.bird` برابر با `undefined` است، در واقع داریم از جاوااسکریپت می‌پرسیم که مقدار `undefined.size` چیست. که این کار معتبر نیست و خطایی مانند `Cannot read property "size" of undefined` ایجاد می‌کند.
+
+<blockquote dir="ltr" align="left">
 In JavaScript, all object keys are strings (unless it's a Symbol). Even though we might not _type_ them as strings, they are always converted into strings under the hood.
 
 JavaScript interprets (or unboxes) statements. When we use bracket notation, it sees the first opening bracket `[` and keeps going until it finds the closing bracket `]`. Only then, it will evaluate the statement.
@@ -229,7 +238,7 @@ JavaScript interprets (or unboxes) statements. When we use bracket notation, it 
 `mouse[bird.size]`: First it evaluates `bird.size`, which is `"small"`. `mouse["small"]` returns `true`
 
 However, with dot notation, this doesn't happen. `mouse` does not have a key called `bird`, which means that `mouse.bird` is `undefined`. Then, we ask for the `size` using dot notation: `mouse.bird.size`. Since `mouse.bird` is `undefined`, we're actually asking `undefined.size`. This isn't valid, and will throw an error similar to `Cannot read property "size" of undefined`.
-
+</blockquote>
 </p>
 </details>
 
