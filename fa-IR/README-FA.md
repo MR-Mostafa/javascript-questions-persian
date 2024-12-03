@@ -266,6 +266,15 @@ console.log(d.greeting);
 
 #### پاسخ: الف
 
+در جاوااسکریپت، زمانی که آبجکت‌ها را برابر یکدیگر قرار می‌دهیم، آن‌ها به یک _مرجع_ در حافظه اشاره می‌کنند. (این بدان معناست که هر تغییری در یکی از آن‌ها، بر دیگری نیز تأثیر می‌گذارد.)
+
+ابتدا، متغیر `c` مقداری را به عنوان یک آبجکت نگه می‌دارد. سپس، متغیر `d` را به همان ارجاعی که `c` به آن آبجکت اشاره می‌کند را مقداردهی می‌کنیم.
+
+<img src="https://i.imgur.com/ko5k0fs.png" width="200">
+
+بنابراین، با تغییر یکی از این آبجکت‌ها، هر دوی آن‌ها تغییر می‌کنند.
+
+<blockquote dir="ltr" align="left">
 In JavaScript, all objects interact by _reference_ when setting them equal to each other.
 
 First, variable `c` holds a value to an object. Later, we assign `d` with the same reference that `c` has to the object.
@@ -273,7 +282,7 @@ First, variable `c` holds a value to an object. Later, we assign `d` with the sa
 <img src="https://i.imgur.com/ko5k0fs.png" width="200">
 
 When you change one object, you change all of them.
-
+</blockquote>
 </p>
 </details>
 
