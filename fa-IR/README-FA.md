@@ -310,12 +310,19 @@ console.log(b === c);
 
 #### پاسخ: ج
 
+`new Number()` یک سازنده‌ی تابع داخلی (built-in function constructor) است. اگرچه شبیه یک عدد به نظر می‌رسد، اما در واقع یک عدد نیست؛ بلکه یک آبجکت است که ویژگی‌های اضافی زیادی دارد.
+
+وقتی از عملگر `==` (عملگر برابری) استفاده می‌کنیم، فقط فقط بررسی می‌کند که آیا _مقدارشان (value)_ باهم برابر است یا نه. در اینجا، مقدار هر دو متغیر `3` است. بنابراین، نتیجه `true` خواهد بود.
+
+اما وقتی از عملگر `===` (عملگر برابری سختگیرانه) استفاده می‌کنیم، هم مقدار (value) _و_ هم نوع (type) باید یکسان باشند. در اینجا این‌گونه نیست: `new Number()` یک عدد نیست، بلکه یک **آبجکت**است. بنابراین هر دو، نتیجه‌ی `false` را برمی‌گردانند.
+
+<blockquote dir="ltr" align="left">
 `new Number()` is a built-in function constructor. Although it looks like a number, it's not really a number: it has a bunch of extra features and is an object.
 
 When we use the `==` operator (Equality operator), it only checks whether it has the same _value_. They both have the value of `3`, so it returns `true`.
 
 However, when we use the `===` operator (Strict equality operator), both value _and_ type should be the same. It's not: `new Number()` is not a number, it's an **object**. Both return `false.`
-
+</blockquote>
 </p>
 </details>
 
