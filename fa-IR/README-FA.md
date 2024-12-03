@@ -151,12 +151,19 @@ console.log(shape.perimeter());
 
 #### پاسخ: ب
 
+توجه داشته باشید که مقدار پراپرتی `diameter` یک تابع معمولی (regular function) است، در حالی که مقدار پراپرتی `perimeter` یک arrow function است.
+
+در arrow function ها، کلمه کلیدی `this` بر خلاف توابع معمولی، به محیط اطراف فعلی تابع (منظور محلی است که تابع در آن تعریف/ایجاد شده است، نه محلی که تابع از آن فراخوانی می‌شود) اشاره می‌کند. این بدان معناست که وقتی تابع `perimeter` فراخوانی می‌شود، به آبجکت shape اشاره نمی‌کند، بلکه به محیط اطرافش (مانند window در مرورگر) اشاره می‌کند. (به عبارت دیگر، در Arrow Function ها this از محیط بیرونی خود به ارث می‌برند)
+
+از آنجایی که در scope تابع arrow مقداری به نام `radius` وجود ندارد، یعنی `this.radius` مقدار `undefined` را برمی‌گرداند که وقتی این مقدار در `2 * Math.PI` ضرب می‌شود، نتیجه `NaN` خواهد بود.
+
+<blockquote dir="ltr" align="left">
 Note that the value of `diameter` is a regular function, whereas the value of `perimeter` is an arrow function.
 
 With arrow functions, the `this` keyword refers to its current surrounding scope, unlike regular functions! This means that when we call `perimeter`, it doesn't refer to the shape object, but to its surrounding scope (window for example).
 
 Since there is no value `radius` in the scope of the arrow function, `this.radius` returns `undefined` which, when multiplied by `2 * Math.PI`, results in `NaN`.
-
+</blockquote>
 </p>
 </details>
 
