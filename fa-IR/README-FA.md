@@ -358,7 +358,7 @@ console.log(freddie.colorChange('orange'));
 
 تابع `colorChange` یک متد استاتیک (static) است. در جاوااسکریپت، متدهای استاتیک به گونه‌ای طراحی شده‌اند که فقط در سازنده‌ی (constructor) کلاسی  که در آن ایجاد/تعریف شده‌اند، وجود دارند (قابل دسترسی هستند) و نمی‌توان آن‌ها را به فرزند آن کلاس انتقال داد یا از طریق آن‌ نمونه‌های کلاس (class instance) فراخوانی کرد. از آنجایی که `freddie`  یک نمونه (instance) از کلاس Chameleon است، این تابع نمی‌تواند روی آن فراخوانی شود. در نتیجه، یک خطای `TypeError` ایجاد می‌شود.
 
-<blockquote dir="ltr" alin="left">
+<blockquote dir="ltr" align="left">
 The `colorChange` funcgtion is static. Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children or called upon class instances. Since `freddie` is an instance of class Chameleon, the function cannot be called upon it. A `TypeError` is thrown.
 </blockquote>
 </p>
@@ -370,7 +370,7 @@ The `colorChange` funcgtion is static. Static methods are designed to live only 
 
 ```javascript
 let greeting;
-greetign = {}; // Typo!
+greetign = {}; // اشتباه تایپی (Typo)!
 console.log(greetign);
 ```
 
@@ -383,6 +383,16 @@ console.log(greetign);
 
 #### پاسخ: الف
 
+این قطعه کد، یک آبجکت را لاگ می‌کند زیرا ما یک آبجکت خالی را بر روی آبجکت سراسری (Global Object) ایجاد کردیم! زمانی که به‌اشتباه `greeting` را به صورت `greetign` نوشتیم، مفسر جاوااسکریپت این اشتباه را به شکل زیر تفسیر کرد:
+
+1. `global.greetign = {}` در Node.js
+2. `window.greetign = {}`, `frames.greetign = {}` و `self.greetign` در browsers.
+3. `self.greetign` در web workers.
+4. `globalThis.greetign` در تمام محیط‌ها (environments).
+
+برای جلوگیری از این اتفاق، می‌توانیم از `"use strict"` استفاده کنیم. این حالت تضمین می‌کند که قبل از مقداردهی/انتساب به یک متغیر، حتماً آن را تعریف (declare) کرده باشید.
+
+<blockquote dir="ltr" align="left">
 It logs the object, because we just created an empty object on the global object! When we mistyped `greeting` as `greetign`, the JS interpreter actually saw this as:
 
 1. `global.greetign = {}` in Node.js
@@ -391,7 +401,7 @@ It logs the object, because we just created an empty object on the global object
 4. `globalThis.greetign` in all environments.
 
 In order to avoid this, we can use `"use strict"`. This makes sure that you have declared a variable before setting it equal to anything.
-
+</blockquote>
 </p>
 </details>
 
