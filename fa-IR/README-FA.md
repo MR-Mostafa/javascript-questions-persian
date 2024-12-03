@@ -306,7 +306,7 @@ console.log(b === c);
 - د: `false` `true` `true`
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
-<p>
+<p dir="rtl" align="right">
 
 #### پاسخ: ج
 
