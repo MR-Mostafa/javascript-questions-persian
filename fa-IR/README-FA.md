@@ -141,10 +141,10 @@ console.log(shape.diameter());
 console.log(shape.perimeter());
 ```
 
-- الف: `20` and `62.83185307179586`
-- ب: `20` and `NaN`
-- ج: `20` and `63`
-- د: `NaN` and `63`
+- الف: `20` و `62.83185307179586`
+- ب: `20` و `NaN`
+- ج: `20` و `63`
+- د: `NaN` و `63`
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
@@ -153,9 +153,9 @@ console.log(shape.perimeter());
 
 توجه داشته باشید که مقدار پراپرتی `diameter` یک تابع معمولی (regular function) است، در حالی که مقدار پراپرتی `perimeter` یک arrow function است.
 
-در arrow function ها، کلمه کلیدی `this` بر خلاف توابع معمولی، به محیط اطراف فعلی تابع (منظور محلی است که تابع در آن تعریف/ایجاد شده است، نه محلی که تابع از آن فراخوانی می‌شود) اشاره می‌کند. این بدان معناست که وقتی تابع `perimeter` فراخوانی می‌شود، به آبجکت shape اشاره نمی‌کند، بلکه به محیط اطرافش (مانند window در مرورگر) اشاره می‌کند. (به عبارت دیگر، در Arrow Function ها this از محیط بیرونی خود به ارث می‌برند)
+در arrow function ها، کلمه کلیدی `this` بر خلاف توابع معمولی، به محیط اطراف فعلی تابع (منظور محلی است که تابع در آن تعریف/ایجاد شده است، نه محلی که تابع از آن فراخوانی می‌شود) اشاره می‌کند. این بدان معناست که وقتی تابع `perimeter` فراخوانی می‌شود، به آبجکت shape اشاره نمی‌کند، بلکه به محیط اطرافش (مانند window در مرورگر) اشاره می‌کند. (به عبارت دیگر، در Arrow Function ها `this` از محیط بیرونی خود به ارث می‌برند)
 
-از آنجایی که در scope تابع arrow مقداری به نام `radius` وجود ندارد، یعنی `this.radius` مقدار `undefined` را برمی‌گرداند که وقتی این مقدار در `2 * Math.PI` ضرب می‌شود، نتیجه `NaN` خواهد بود.
+از آنجایی که در scope تابع arrow مقداری به نام `radius` وجود ندارد، یعنی `this.radius` مقدار `undefined` را برمی‌گرداند، که وقتی این مقدار در `2 * Math.PI` ضرب می‌شود، نتیجه `NaN` خواهد بود.
 
 <blockquote dir="ltr" align="left">
 Note that the value of `diameter` is a regular function, whereas the value of `perimeter` is an arrow function.
