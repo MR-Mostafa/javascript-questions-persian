@@ -176,19 +176,24 @@ Since there is no value `radius` in the scope of the arrow function, `this.radiu
 !'Lydia';
 ```
 
-- الف: `1` and `false`
-- ب: `false` and `NaN`
-- ج: `false` and `false`
+- الف: `1` و `false`
+- ب: `false` و `NaN`
+- ج: `false` و `false`
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
 
+علامت مثبت unary `+` سعی می‌کند عملوند را به یک عدد تبدیل کند. مقدار `true` به عدد `1` و مقدار `false` به عدد `0` تبدیل می‌شود.
+
+رشته `'Lydia'` یک مقدار truthy است (یعنی مقداری که در شرایط منطقی به عنوان true در نظر گرفته می‌شود). سوالی که اینجا مطرح شده این است: «آیا این مقدار که در شرایط منطقی به عنوان truthy ارزیابی می‌شود، falsy است؟». پاسخ این سوال (همیشه) `false` است. (چون یک مقدار truthy هرگز falsy نیست.)
+
+<blockquote dir="ltr" align="left">
 The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.
 
 The string `'Lydia'` is a truthy value. What we're actually asking, is "Is this truthy value falsy؟". This returns `false`.
-
+</blockquote>
 </p>
 </details>
 
