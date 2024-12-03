@@ -312,9 +312,9 @@ console.log(b === c);
 
 تابع سازنده `new Number()` یک تابع سازنده داخلی (built-in function constructor) است. اگرچه شبیه یک عدد به نظر می‌رسد، اما در واقع یک عدد نیست؛ بلکه یک آبجکت است که ویژگی‌های اضافی زیادی دارد.
 
-وقتی از عملگر `==` (عملگر برابری) استفاده می‌کنیم، فقط فقط بررسی می‌کند که آیا _مقدارشان (value)_ باهم برابر است یا نه. در اینجا، مقدار هر دو متغیر `3` است. بنابراین، نتیجه `true` خواهد بود.
+وقتی از عملگر `==` (عملگر برابری) استفاده می‌کنیم، فقط بررسی می‌کند که آیا _مقدارشان (value)_ باهم برابر است یا نه. در اینجا، مقدار هر دو متغیر `3` است. بنابراین، نتیجه `true` خواهد بود.
 
-اما وقتی از عملگر `===` (عملگر برابری سختگیرانه) استفاده می‌کنیم، هم مقدار (value) _و_ هم نوع (type) باید یکسان باشند. در اینجا این‌گونه نیست: `new Number()` یک عدد نیست، بلکه یک **آبجکت**است. بنابراین هر دو، نتیجه‌ی `false` را برمی‌گردانند.
+اما وقتی از عملگر `===` (عملگر برابری سختگیرانه) استفاده می‌کنیم، هم مقدار (value) _و_ هم نوع (type) باید یکسان باشند. در اینجا این‌گونه نیست: خروجی `new Number()` یک عدد نیست، بلکه یک **آبجکت** است. بنابراین هر دو، نتیجه‌ی `false` را برمی‌گردانند.
 
 <blockquote dir="ltr" align="left">
 `new Number()` is a built-in function constructor. Although it looks like a number, it's not really a number: it has a bunch of extra features and is an object.
@@ -356,8 +356,11 @@ console.log(freddie.colorChange('orange'));
 
 #### پاسخ: د
 
-The `colorChange` function is static. Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children or called upon class instances. Since `freddie` is an instance of class Chameleon, the function cannot be called upon it. A `TypeError` is thrown.
+تابع `colorChange` یک متد استاتیک (static) است. در جاوااسکریپت، متدهای استاتیک به گونه‌ای طراحی شده‌اند که فقط در سازنده‌ی (constructor) کلاسی  که در آن ایجاد/تعریف شده‌اند، وجود دارند (قابل دسترسی هستند) و نمی‌توان آن‌ها را به فرزند آن کلاس انتقال داد یا از طریق آن‌ نمونه‌های کلاس (class instance) فراخوانی کرد. از آنجایی که `freddie`  یک نمونه (instance) از کلاس Chameleon است، این تابع نمی‌تواند روی آن فراخوانی شود. در نتیجه، یک خطای `TypeError` ایجاد می‌شود.
 
+<blockquote dir="ltr" alin="left">
+The `colorChange` funcgtion is static. Static methods are designed to live only on the constructor in which they are created, and cannot be passed down to any children or called upon class instances. Since `freddie` is an instance of class Chameleon, the function cannot be called upon it. A `TypeError` is thrown.
+</blockquote>
 </p>
 </details>
 
