@@ -713,18 +713,28 @@ During the **capturing** phase, the event goes through the ancestor elements dow
 
 ---
 
-###### 14. All object have prototypes.
+###### 14. آیا همه اشیا در جاوااسکریپت دارای پروتوتایپ (Prototype) هستند؟
 
-- الف: true
-- ب: false
+- الف: بله
+- ب: خیر
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
 
-All objects have prototypes, except for the **base object**. The base object is the object created by the user, or an object that is created using the `new` keyword. The base object has access to some methods and properties, such as `.toString`. This is the reason why you can use built-in JavaScript methods! All of such methods are available on the prototype. Although JavaScript can't find it directly on your object, it goes down the prototype chain and finds it there, which makes it accessible for you.
+در جاوااسکریپت، پروتوتایپ (Prototype) یک مکانیزم ارث‌بری است که به اشیا اجازه می‌دهد ویژگی‌ها و متدها را از سایر اشیا به ارث ببرند. هر شیء در جاوااسکریپت (به جز شیء پایه) به یک شیء دیگر متصل است که به آن پروتوتایپ می‌گویند.
 
+همه‌ی آبجکت‌ها در جاوااسکریپت یک پروتوتایپ (`prototype`) دارند، به جز آبجکت پایه (base object).
+
+آبجکت پایه (base object)، آبجکتی است که توسط کاربر ایجاد شده یا با استفاده از کلمه کلیدی `new` ساخته شده است. این آبجکت به برخی از متدها و پراپرتی‌ها داخلی (built-in) جاوااسکریپت مانند `toString` دسترسی دارد. به همین دلیل است که می‌توانید از متدهای داخلی (built-in) جاوااسکریپت استفاده کنیم!
+
+تمام این متدهای داخلی روی پروتوتایپ قرار دارند. اگر جاوااسکریپت نتواند مستقیماً متدی را روی آبجکت شما پیدا کند، از زنجیره پروتوتایپ (prototype chain) آن را جستجو می‌کند، که باعث می‌شود این متدها برای شما قابل دسترسی شوند.
+
+
+<blockquote dir="ltr" align="left">
+All objects have prototypes, except for the **base object**. The base object is the object created by the user, or an object that is created using the `new` keyword. The base object has access to some methods and properties, such as `.toString`. This is the reason why you can use built-in JavaScript methods! All of such methods are available on the prototype. Although JavaScript can't find it directly on your object, it goes down the prototype chain and finds it there, which makes it accessible for you.
+</blockquote>
 </p>
 </details>
 
