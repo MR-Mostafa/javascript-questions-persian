@@ -574,6 +574,28 @@ console.log(member.getFullName());
 
 #### پاسخ: الف
 
+در جاوااسکریپت، توابع آبجکت هستند و می‌توان به آن‌ها ویژگی‌هایی را اضافه کرد.
+
+در اینجا، متد `getFullName` به تابع سازنده `Person` اضافه شده است، اما این متد فقط به خود تابع سازنده (constructor function) تعلق دارد و به نمونه‌های ایجاد شده توسط آن (مانند `member`) دسترسی ندارد.
+
+مقدار `member` یک نمونه از کلاس `Person` است. با این حال، `getFullName` به نمونه‌های این کلاس اضافه نشده است؛ بلکه به تابع سازنده (constructor function) یعنی `Person` تعلق دارد.
+
+وقتی تلاش می‌کنید `member.getFullName()` را فراخوانی کنید، جاوااسکریپت خطای `TypeError` می‌دهد، زیرا متد `getFullName` در نمونه (instance) آن وجود ندارد.
+
+اگر می‌خواهید یک متد، برای تمام نمونه‌های آن شیء، در دسترس باشد، باید آن ویژگی را به `prototype` تابع سازنده اضافه کنید، به عنوان مثال:
+
+<div dir="ltr" align="left">
+
+```js
+Person.prototype.getFullName = function () {
+  return `${this.firstName} ${this.lastName}`;
+};
+```
+
+</div>
+
+
+<blockquote dir="ltr" align="left">
 In JavaScript, functions are objects, and therefore, the method `getFullName` gets added to the constructor function object itself. For that reason, we can call `Person.getFullName()`, but `member.getFullName` throws a `TypeError`.
 
 If you want a method to be available to all object instances, you have to add it to the prototype property:
@@ -583,7 +605,7 @@ Person.prototype.getFullName = function () {
   return `${this.firstName} ${this.lastName}`;
 };
 ```
-
+</blockquote>
 </p>
 </details>
 
