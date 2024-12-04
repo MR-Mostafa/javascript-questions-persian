@@ -520,20 +520,29 @@ function bark() {
 bark.animal = 'dog';
 ```
 
-- الف: Nothing, this is totally fine!
-- ب: `SyntaxError`. You cannot add properties to a function this way.
-- ج: `"Woof"` gets logged.
-- د: `ReferenceError`
+- الف: هیچ مشکلی ندارد، این کاملاً درست است!
+- ب: خطای `SyntaxError` می‌دهد، زیرا با این روش نمی‌توانیم ویژگی‌هایی به یک تابع اضافه کنیم.
+- ج: مقدار `"Woof"` لاگ می‌شود.
+- د: خطای `ReferenceError` می‌دهد.
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
 
+در جاوااسکریپت این ممکن است، زیرا توابع از نوع آبجکت هستند! (هر چیزی به جز انواع داده اولیه یا primitive type، آبجکت محسوب می‌شود.)
+
+تابع یک نوع خاص از آبجکت است. کدی که شما به عنوان یک تابع می‌نویسید، در واقع خود تابع نیست. تابع در جاوااسکریپت یک آبجکت با ویژگی‌هایی (properties) است که یکی از این ویژگی‌ها، قابلیت اجرا شدن (invocable بودن) است.
+
+بنابراین، می‌توانیم به توابع، ویژگی‌های دلخواهی اضافه کنیم، همانطور که به یک آبجکت می‌توانستیم.
+
+در این مثال، ما یک ویژگی به نام `animal` را با مقدار `'dog'` به تابع `bark` اضافه کرده‌ایم که کاملاً مجاز و بدون خطاست.
+
+<blockquote dir="ltr" align="left">
 This is possible in JavaScript, because functions are objects! (Everything besides primitive types are objects)
 
 A function is a special type of object. The code you write yourself isn't the actual function. The function is an object with properties. This property is invocable.
-
+</blockquote>
 </p>
 </details>
 
