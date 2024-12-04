@@ -676,7 +676,7 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
 
 ---
 
-###### 13. سه مرحله‌‌ی انتشار رویداد (event propagation) چیست؟
+###### 13. سه مرحله‌‌ی انتشار رویداد (event propagation) چیست؟ (ترتبب گزینه‌ها از چپ به راست می‌باشد)
 
 - الف: Target > Capturing > Bubbling
 - ب: Bubbling > Target > Capturing
@@ -688,10 +688,26 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
 
 #### پاسخ: د
 
-During the **capturing** phase, the event goes through the ancestor elements down to the target element. It then reaches the **target** element, and **bubbling** begins.
+در جاوااسکریپت، زمانی که یک رویداد (Event) مانند کلیک رخ می‌دهد، فرآیند انتشار رویداد (event propagation) در سه مرحله انجام می‌شود:
+
+1. **مرحله Capturing Phase**: در این مرحله، رویداد از بالاترین عنصر والد (مانند `document` یا `window`) شروع می‌شود و به سمت عنصر هدف (Target) حرکت می‌کند.
+2. **مرحله Target Phase**: در این مرحله، رویداد به عنصر هدف (Target) می‌رسد و اجرا می‌شود. این همان جایی است که رویداد در خودِ عنصری که کلیک یا عمل دیگری روی آن انجام شده، اجرا می‌شود.
+3. **مرحله Bubbling Phase**: پس از اجرا در عنصر هدف (Target)، رویداد به سمت عناصر والد بازمی‌گردد.
+
+به عبارت دیگر، در مرحله کپچرینگ (Capturing)، رویداد از عناصر والد به سمت عنصر هدف (Target) حرکت می‌کند. پس از رسیدن به عنصر هدف، مرحله بالا رفتن (Bubbling) آغاز می‌شود و رویداد از عنصر هدف به سمت عناصر والد بازمی‌گردد.
 
 <img src="https://i.imgur.com/N18oRgd.png" width="200">
 
+**توجه داشته باشید** که پرسش در مورد **ترتیب مراحل انتشار رویداد** بود، نه _مقدار پیش‌فرض_ آرگومان `useCapture` در متد `addEventListener` در جاوااسکریپت، ترتیب مراحل انتشار همیشه مطابق با گزینه `د` می‌باشد.
+
+<blockquote dir="ltr" align="left">
+During the **capturing** phase, the event goes through the ancestor elements down to the target element. It then reaches the **target** element, and **bubbling** begins.
+
+<br />
+
+<img src="https://i.imgur.com/N18oRgd.png" width="200">
+
+</blockquote>
 </p>
 </details>
 
