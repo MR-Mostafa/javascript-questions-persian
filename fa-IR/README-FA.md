@@ -626,20 +626,51 @@ console.log(lydia);
 console.log(sarah);
 ```
 
-- الف: `Person {firstName: "Lydia", lastName: "Hallie"}` and `undefined`
-- ب: `Person {firstName: "Lydia", lastName: "Hallie"}` and `Person {firstName: "Sarah", lastName: "Smith"}`
-- ج: `Person {firstName: "Lydia", lastName: "Hallie"}` and `{}`
-- د: `Person {firstName: "Lydia", lastName: "Hallie"}` and `ReferenceError`
+- الف: `Person {firstName: "Lydia", lastName: "Hallie"}` و `undefined`
+- ب: `Person {firstName: "Lydia", lastName: "Hallie"}` و `Person {firstName: "Sarah", lastName: "Smith"}`
+- ج: `Person {firstName: "Lydia", lastName: "Hallie"}` و `{}`
+- د: `Person {firstName: "Lydia", lastName: "Hallie"}` و `ReferenceError`
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
 
+1. **هنگام استفاده از کلمه کلیدی `new` برای ایجاد یک آبجکت:**
+
+وقتی از `new` برای فراخوانی یک تابع سازنده استفاده می‌کنیم، جاوااسکریپت یک آبجکت جدید ایجاد می‌کند که مقدار `this` به آن آبجکت ساخته شده، اشاره می‌کند.
+
+بنابراین، وقتی `const lydia = new Person('Lydia', 'Hallie')` اجرا می‌شود:
+
+- جاوااسکریپت یک آبجکت جدید از نوع Person ایجاد می‌کند.
+- مقدار `this.firstName` برابر `'Lydia'` و مقدار `this.lastName` برابر `'Hallie'` تعیین خواهد شد.
+- در نتیجه خروجی متغیر `lydia` برابر با `Person {firstName: "Lydia", lastName: "Hallie"}` خواهد بود.
+
+<br />
+
+2. **فراخوانی تابع بدون استفاده از کلمه کلیدی `new`:**
+
+وقتی تابع `Person('Sarah', 'Smith')` را _بدون_ `new` فراخوانی می‌کنیم:
+
+- مقدار `this` به آبجکت سراسری یا global object اشاره می‌کند. (به عنوان مثال در مرورگر به `window` و در Node.js به `global`)
+- در نتیجه، مقادیر `firstName` و `lastName` به متغیرهای سراسری تبدیل می‌شوند، یعنی:
+
+<div dir="ltr" align="left">
+
+```js
+window.firstName = 'Sarah'; // یا global.firstName = 'Sarah'
+window.lastName = 'Smith'; // یا global.lastName = 'Smith'
+```
+
+</div>
+
+- با توجه به اینکه تابع `Person` هیچ مقداری به عنوان خروجی برنمی‌گرداند، بنابراین متغیر `sarah` مقدار `undefined` را خواهد داشت.
+
+<blockquote dir="ltr" align="left">
 For `sarah`, we didn't use the `new` keyword. When using `new`, `this` refers to the new empty object we create. However, if you don't add `new`, `this` refers to the **global object**!
 
 We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smith"`. What we actually did, is defining `global.firstName = 'Sarah'` and `global.lastName = 'Smith'`. `sarah` itself is left `undefined`, since we don't return a value from the `Person` function.
-
+</blockquote>
 </p>
 </details>
 
