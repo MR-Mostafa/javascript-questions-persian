@@ -760,10 +760,16 @@ sum(1, '2');
 
 #### پاسخ: ج
 
+جاوااسکریپت یک زبان با **تایپ پویا** است؛ این بدان معنی است که لازم نیست نوع متغیرها را از قبل مشخص کنیم. مقادیر می‌توانند به‌طور خودکار به نوع دیگری تبدیل شوند بدون اینکه متوجه شویم، که به این فرآیند "تبدیل نوع ضمنی" (_Implicit Type Coercion_) گفته می‌شود. **Coercion** به معنای تبدیل یک نوع داده به نوع دیگر است.
+
+در این مثال، جاوااسکریپت هنگام جمع یک مقدار عددی (`1`) و یک رشته (`'2'`)، عدد را به رشته تبدیل می‌کند تا بتواند عمل جمع (که در اینجا در واقع الحاق است) را انجام دهد. همان‌طور که می‌توانیم رشته‌ها را به هم متصل کنیم (مثل `"Hello" + "World"`)، در این مورد هم اتفاقی مشابه می‌افتد: در نتیجه `1` (عددی) به `"1"` (رشته) تبدیل شده و جمع دو رشته‌ی `"1" + "2"` برابر با `"12"` می‌شود.
+
+
+<blockquote dir="ltr" align="left">
 JavaScript is a **dynamically typed language**: we don't specify what types certain variables are. Values can automatically be converted into another type without you knowing, which is called _implicit type coercion_. **Coercion** is converting from one type into another.
 
 In this example, JavaScript converts the number `1` into a string, in order for the function to make sense and return a value. During the addition of a numeric type (`1`) and a string type (`'2'`), the number is treated as a string. We can concatenate strings like `"Hello" + "World"`, so what's happening here is `"1" + "2"` which returns `"12"`.
-
+</blockquote>
 </p>
 </details>
 
