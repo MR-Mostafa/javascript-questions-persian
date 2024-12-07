@@ -844,17 +844,45 @@ const age = 21;
 getPersonInfo`${person} is ${age} years old`;
 ```
 
-- الف: `"Lydia"` `21` `["", " is ", " years old"]`
-- ب: `["", " is ", " years old"]` `"Lydia"` `21`
-- ج: `"Lydia"` `["", " is ", " years old"]` `21`
+- الف: <span dir="ltr">`"Lydia"` `21` `["", " is ", " years old"]`</span>
+- ب: <span dir="ltr">`["", " is ", " years old"]` `"Lydia"` `21`</span>
+- ج: <span dir="ltr">`"Lydia"` `["", " is ", " years old"]` `21`</span>
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ب
 
-If you use tagged template literals, the value of the first argument is always an array of the string values. The remaining arguments get the values of the passed expressions!
+در این کد از **tagged template literals** استفاده شده است. وقتی از یک تابع به عنوان tagged template literal استفاده می‌شود، جاوااسکریپت به صورت زیر عمل می‌کند:
 
+1. **قسمت‌های ثابت (Strings)**: اولین آرگومان ارسال شده به تابع یک **آرایه** حاوی قسمت‌های ثابت رشته است. این قسمت‌ها، بخش‌هایی از رشته هستند که در بین مقادیر جایگزین‌ شده (یعنی `${}`) قرار دارند.
+2. **مقادیر جایگزین‌شده (Substitutions)**: آرگومان‌های بعدی (دو و سه و چهار و …) مقادیری هستند که در جایگزین‌های `${}` قرار می‌گیرند (که در اینجا `person` و `age` می‌باشند.).
+
+در این مثال:
+
+- بخش ثابت رشته‌ها: <code dir="ltr">["", " is ", " years old"]</code>
+- مقادیر جایگزین شده: `"Lydia"` و `21`
+
+بنابراین، هنگام فراخوانی `getPersonInfo\`${person} is ${age} years old\``، پارامترها به ترتیب زیر خواهند بود:
+
+1. پارامتر اول: <code dir="ltr">["", " is ", " years old"]</code>
+2. پارامتر دوم: `"Lydia"`
+3. پارامتر سوم: `21`
+
+و در خروجی نیز موارد زیر به ترتیب چاپ خواهند شد:
+
+<pre dir="ltr">
+["", " is ", " years old"]
+"Lydia"
+21
+</pre>
+
+در نتیجه گزینه `ب` صحیح می‌باشد.
+
+
+<blockquote dir="ltr" align="left">
+If you use tagged template literals, the value of the first argument is always an array of the string values. The remaining arguments get the values of the passed expressions!
+</blockquote>
 </p>
 </details>
 
