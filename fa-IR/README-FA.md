@@ -863,7 +863,7 @@ getPersonInfo`${person} is ${age} years old`;
 - بخش ثابت رشته‌ها: <code dir="ltr">["", " is ", " years old"]</code>
 - مقادیر جایگزین شده: `"Lydia"` و `21`
 
-بنابراین، هنگام فراخوانی `getPersonInfo\`${person} is ${age} years old\``، پارامترها به ترتیب زیر خواهند بود:
+بنابراین، هنگام فراخوانی <code dir="ltr">getPersonInfo\`${person} is ${age} years old\`</code>، پارامترها به ترتیب زیر خواهند بود:
 
 1. پارامتر اول: <code dir="ltr">["", " is ", " years old"]</code>
 2. پارامتر دوم: `"Lydia"`
