@@ -986,8 +986,18 @@ getAge();
 
 #### پاسخ: ج
 
-With `"use strict"`, you can make sure that you don't accidentally declare global variables. We never declared the variable `age`, and since we use `"use strict"`, it will throw a reference error. If we didn't use `"use strict"`, it would have worked, since the property `age` would have gotten added to the global object.
+در بدنه‌ی تابع `getAge` ، از حالت سخت‌گیرانه (`"use strict"`) استفاده شده است. وقتی از این عبارت استفاده می‌کنیم، باعث می‌شود که جاوااسکریپت قوانین بیشتری را برای نوشتن کد اعمال کند تا اشتباهات رایج را شناسایی و از بروز از خطاهای احتمالی جلوگیری کند. به عبارت دیگر، در این حالت، قوانین و محدودیت‌هایی به زبان اعمال می‌شود که به طور پیش‌فرض در حالت معمولی وجود ندارند. یکی از این محدودیت‌ها در خصوص مقدار دهی به یک متغیر، بدون تعریف آن می‌باشد.
 
+در تابع `getAge`، سعی شده که به متغیر `age` مقداردهی شود، بدون اینکه قبلاً آن را با کلمه کلیدی `var`, `let` یا `const` تعریف کرده باشد.
+
+در حالت **غیر سخت‌گیرانه**، این کار باعث می‌شود که متغیر `age` به یک متغیر سراسری (global) تبدیل شود و منجر به بروز هیچگونه خطایی نخواهد شد. اما در حالت **سخت‌گیرانه**، گفتیم که اختصاص مقدار به یک متغیر تعریف نشده قابل قبول نیست، در نتیجه منجر به `throw` شدن خطای `ReferenceError` می‌شود، زیرا متغیر `age` قبلاً تعریف نشده است.
+
+بنابراین، اجرای این کد باعث ایجاد خطای `ReferenceError` می‌شود و گزینه `ج` صحیح می‌باشد.
+
+
+<blockquote dir="ltr" align="left">
+With `"use strict"`, you can make sure that you don't accidentally declare global variables. We never declared the variable `age`, and since we use `"use strict"`, it will throw a reference error. If we didn't use `"use strict"`, it would have worked, since the property `age` would have gotten added to the global object.
+</blockquote>
 </p>
 </details>
 
