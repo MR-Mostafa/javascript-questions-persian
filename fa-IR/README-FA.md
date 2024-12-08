@@ -950,8 +950,15 @@ getAge(21);
 
 #### پاسخ: ج
 
-The rest parameter (`...args`) lets us "collect" all remaining arguments into an array. An array is an object, so `typeof args` returns `"object"`
+- در این کد از **Rest Parameters** استفاده شده است. پارامترهای rest به ما اجازه می‌دهند تا تعداد نامحدودی از آرگومان‌ها را به عنوان یک **آرایه** از یک تابع دریافت کنیم.
+- تابع <code dir="ltr">getAge(21)</code> تنها با یک آرگومان (`21`) فراخوانی شده است، بنابراین `args` برابر با `[21]` می‌باشد.
+- از آنجا که آرایه‌ها در جاوااسکریپت یک نوع آبجکت می‌باشند، در نتیجه خروجی مقدار `typeof args` برابر با `"object"` خواهد بود.
 
+با توجه به این توضیح، گزینه `ج` صحیح می‌باشد.
+
+<blockquote dir="ltr" align="left">
+The rest parameter (`...args`) lets us "collect" all remaining arguments into an array. An array is an object, so `typeof args` returns `"object"`
+</blockquote>
 </p>
 </details>
 
