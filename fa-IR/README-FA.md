@@ -904,21 +904,27 @@ function checkAge(data) {
 checkAge({ age: 18 });
 ```
 
-- الف: `You are an adult!`
-- ب: `You are still an adult.`
-- ج: `Hmm.. You don't have an age I guess`
+- الف: <code dir="ltr">You are an adult!</code>
+- ب: <code dir="ltr">You are still an adult.</code>
+- ج: <code dir="ltr">Hmm.. You don't have an age I guess</code>
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: ج
 
+- آبجکت‌ها در جاوااسکریپت به عنوان یک _رفرنس_ در حافظه ذخیره می‌شوند (در واقع آن متغیر یک _reference_ از آن آبجکت را در حافظه دریافت می‌کند، نه یک کپی از مقدار آن).
+- زمانی که یک آبجکت را با یک متغیر (آبجکت) دیگر مقایسه می‌کنیم، در واقع، جاوااسکریپت بررسی می‌کند که آیا هر دو متغیر به **همان محل حافظه** اشاره می‌کنند یا خیر، نه اینکه مقادیر داخلی آنها یکسان باشد. در نتیجه مقایسه آبجکت‌ها چه به صورت `===` و چه به صورت `==` انجام شود، با توجه به اینکه رفرنس هر کدام در حافظه متفاوت است، نتیجه همیشه `false` خواهد بود. (برخلاف مقادیر primitive که مقایسه آن‌ها بر اساس **مقدار یا value** آن انجام می‌شود)
+
+با توجه به این توضیح، گزینه `ج` صحیح می‌باشد.
+
+<blockquote dir="ltr" align="left">
 When testing equality, primitives are compared by their _value_, while objects are compared by their _reference_. JavaScript checks if the objects have a reference to the same location in memory.
 
 The two objects that we are comparing don't have that: the object we passed as a parameter refers to a different location in memory than the object we used in order to check equality.
 
 This is why both `{ age: 18 } === { age: 18 }` and `{ age: 18 } == { age: 18 }` return `false`.
-
+</blockquote>
 </p>
 </details>
 
