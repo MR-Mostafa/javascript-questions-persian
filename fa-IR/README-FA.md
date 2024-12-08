@@ -1012,15 +1012,20 @@ const sum = eval('10*10+5');
 - الف: `105`
 - ب: `"105"`
 - ج: `TypeError`
-- د: `"10*10+5"`
+- د: <code dir="ltr">"10*10+5"</code>
 
 <details dir="rtl" align="right"><summary><b>پاسخ</b></summary>
 <p>
 
 #### پاسخ: الف
 
-`eval` evaluates code that's passed as a string. If it's an expression, like in this case, it evaluates the expression. The expression is `10 * 10 + 5`. This returns the number `105`.
+تابع `eval` در جاوااسکریپت برای **اجرای** کدی که به صورت رشته (`string`) به آن داده می‌شود، استفاده می‌گردد. به عبارت دیگر، `eval` می‌تواند یک رشته را که حاوی کد جاوااسکریپت است، بگیرد و آن را به عنوان یک کد ارزیابی و اجرا کند (به یاد داشته باشید که استفاده از `eval` به دلایل امنیتی توصیه نمی‌شود).
 
+در این کد، تابع `eval` مقدار <code dir="ltr">'10*10+5'</code> را دریافت کرده است (به صورت رشته)، که نتیجه‌ی محاسبه و اجرای این کد برابر با عدد `105` خواهد شد.
+
+<blockquote dir="ltr" align="left">
+`eval` evaluates code that's passed as a string. If it's an expression, like in this case, it evaluates the expression. The expression is `10 * 10 + 5`. This returns the number `105`.
+</blockquote>
 </p>
 </details>
 
