@@ -1170,8 +1170,14 @@ console.log(obj);
 
 #### پاسخ: ج
 
-If you have two keys with the same name, the key will be replaced. It will still be in its first position, but with the last specified value.
+هنگامی که در یک آبجکت دو بار یک کلید یکسان تعریف شود، مقدار کلید تکراری با آخرین مقدار تعیین شده جایگزین می‌شود. در این مثال، ابتدا کلیدی با نام `a` مقدار `'one'` را دریافت کرده، اما بعداً کلید `a` با مقدار `'three'` تعریف (جایگزین) شده است. بنابراین مقدار نهایی `a` برابر `'three'` خواهد بود.
 
+با این توضیح، مقدار نهایی آبجکت برابر `{ a: "three", b: "two" }` است.
+
+
+<blockquote dir="ltr" align="left">
+If you have two keys with the same name, the key will be replaced. It will still be in its first position, but with the last specified value.
+</blockquote>
 </p>
 </details>
 
