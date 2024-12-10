@@ -1101,7 +1101,7 @@ You cannot do this with `let` or `const` since they're block-scoped and therefor
 
 ---
 
-###### 24. خروجی این کد چیست؟
+###### 24. خروجی این کد چیست؟  (ترتبب گزینه‌ها از چپ به راست می‌باشد)
 
 ```javascript
 const obj = { 1: 'a', 2: 'b', 3: 'c' };
@@ -1123,10 +1123,31 @@ set.has(1);
 
 #### پاسخ: ج
 
+در جاوااسکریپت، تمام key‌های یک آبجکت (به جز Symbolها) به صورت خودکار به رشته تبدیل می‌شوند. این بدان معناست که حتی اگر کلید را به صورت عدد بنویسیم، آبجکت آن کلید را به یک رشته تبدیل می‌کند.
+
+بنابراین در `obj`، کلید `1` در واقع `"1"` است، کلید 2 در واقع `"2"` است و …
+
+به همین دلیل است که خروجی <code dir="ltr">obj.hasOwnProperty('1')</code> مقدار `true` می‌باشد؛ اما هنگامی که از <code dir="ltr">obj.hasOwnProperty(1)</code> استفاده می‌کنیم، جاوااسکریپت ابتدا مقدار `1` (عددی) را به `"1"` (رشته) تبدیل می‌کند تا بررسی کند آیا آبجکت دارای این کلید می‌باشد یا خیر، با توجه به اینکه این مقدار در آبجکت وجود دارد، در نتیجه در این مورد هم مقدار `true` را برمی‌گرداند.
+
+
+اما این موضوع در مورد `Set` صدق نمی‌کند. `Set` یک ساختار داده‌ای است که مقادیر آن منحصربه‌فرد و غیرتکراری می‌باشد. این مقادیر برخلاف آبجکت، به صورت مستقیم و بدون تبدیل به رشته ذخیره می‌شوند.
+
+بنابراین هنگامی که از <code dir="ltr">set.has('1')</code> استفاده می‌کنیم، چون مقدار `"1"` (رشته) در آن وجود ندارد، در خروجی مقدار `false` را برمی‌گرداند؛ اما در خصوص <code dir="ltr">set.has(1)</code> چون مقدار عددی `1` در `Set` وجود دارد، `true` را برمی‌گرداند.
+
+با توجه به توضیحات گفته شده:
+1. مقدار <code dir="ltr">obj.hasOwnProperty('1')</code> در خروجی `true` برمی‌گرداند.
+2. مقدار <code dir="ltr">obj.hasOwnProperty(1)</code> در خروجی `true` برمی‌گرداند.
+3. مقدار <code dir="ltr">set.has('1')</code> در خروجی `false` برمی‌گرداند.
+4. مقدار <code dir="ltr">set.has(1)</code> در خروجی `true` برمی‌گرداند.
+
+در نتیجه گزینه `ج` صحیح می‌باشد.
+
+
+<blockquote dir="ltr" align="left">
 All object keys (excluding Symbols) are strings under the hood, even if you don't type it yourself as a string. This is why `obj.hasOwnProperty('1')` also returns true.
 
 It doesn't work that way for a set. There is no `'1'` in our set: `set.has('1')` returns `false`. It has the numeric type `1`, `set.has(1)` returns `true`.
-
+</blockquote>
 </p>
 </details>
 
