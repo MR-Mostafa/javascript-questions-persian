@@ -1080,10 +1080,22 @@ console.log(num);
 
 #### پاسخ: ب
 
+کلمه‌ی کلیدی `var` برای تعریف متغیرها در جاوااسکریپت (به سبک قدیمی‌) استفاده می‌شود. ویژگی مهم `var` این است که متغیرهای تعریف‌شده، بصورت **Function Scope** یا **Global Scope** تعریف می‌شوند. همچنین، با `var` می‌توان یک متغیر را چندین بار و با همان نام و در همان محدوده (Scope) تعریف کرد، بدون اینکه خطایی رخ دهد. در این حالت، مقدار نهایی متغیر تعریف شده با کلمه کلیدی `var` برابر با آخرین اعلام و مقداردهی آن می‌باشد.
+
+اما در صورت تعریف متغیر با استفاده از کلمه کلیدی `let` یا `const` چنین کاری امکان‌پذیر نمی‌باشد، زیرا این متغیرها دارای محدوده‌ی **Block Scope** می‌باشند و امکان تعریف مجدد آن‌ها در همان محدوده وجود ندارد (خطای `SyntaxError` دریافت می‌کنیم).
+
+با این توضیح:
+- ابتدا متغیر `num` مقدار `8` را می‌گیرد. (که با کلمه‌ی کلیدی `var` تعریف شده است)
+- سپس مجدداً با <code dir="ltr">var num = 10;</code> مقدار `10` به آن داده می‌شود.
+- در نهایت، <code dir="ltr">console.log(num)</code> مقدار `10` را چاپ می‌کند.
+
+در نتیجه گزینه `ب` صحیح می‌باشد.
+
+<blockquote dir="ltr" align="left">
 With the `var` keyword, you can declare multiple variables with the same name. The variable will then hold the latest value.
 
 You cannot do this with `let` or `const` since they're block-scoped and therefore can't be redeclared.
-
+</blockquote>
 </p>
 </details>
 
